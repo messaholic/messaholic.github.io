@@ -3,535 +3,1726 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Aafreen Naaz | Finance Analyst &amp; Public Speaker</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Aafreen Naaz — Public Speaker | Toastmasters President | L&amp;D Trainer</title>
+    <meta name="description" content="Aafreen Naaz — Public Speaker, Toastmasters President, L&D Trainer @SpeakUptoStandOut. 9+ years at Cargill, Infosys BPM & Genpact. Book a session for speaking coaching, career guidance & more.">
+    <meta property="og:title" content="Hi, I'm Aafreen Naaz — Public Speaker & Leadership Coach">
+    <meta property="og:description" content="Toastmasters President | L&D Trainer @SpeakUptoStandOut | Finance Analyst at Cargill. Book sessions for speaking coaching, career guidance & leadership development.">
+    <meta property="og:image" content="https://messaholic.github.io/profile.jpg">
+    <meta property="og:url" content="https://messaholic.github.io">
+    <meta property="og:type" content="website">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hi, I'm Aafreen Naaz — Public Speaker & Leadership Coach">
+    <meta name="twitter:description" content="Toastmasters President | L&D Trainer. Book sessions for speaking coaching, career guidance & leadership development.">
+    <meta name="twitter:image" content="https://messaholic.github.io/profile.jpg">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        :root {
+            --bg: #0a0a0f;
+            --bg-2: #111119;
+            --bg-card: #16161f;
+            --border: #1e1e2e;
+            --border-hover: #a855f7;
+            --text: #e4e4ed;
+            --text-2: #9494a8;
+            --text-3: #6b6b80;
+            --accent: #a855f7;
+            --accent-l: #c084fc;
+            --accent-glow: rgba(168,85,247,0.12);
+            --green: #22c55e;
+            --blue: #3b82f6;
+            --orange: #f59e0b;
+            --red: #ef4444;
+            --pink: #ec4899;
+            --cyan: #06b6d4;
+            --sans: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+            --mono: 'JetBrains Mono', monospace;
+            --max-w: 1200px;
+            --r: 16px;
+            --tr: 0.35s cubic-bezier(0.4,0,0.2,1);
+            --glass: rgba(10,10,15,0.6);
+            --nav-bg: rgba(10,10,15,0.85);
+        }
+        [data-theme="light"] {
+            --bg: #f8f9fc;
+            --bg-2: #eef0f5;
+            --bg-card: #ffffff;
+            --border: #e2e4ea;
+            --text: #1a1a2e;
+            --text-2: #555566;
+            --text-3: #888899;
+            --accent-glow: rgba(168,85,247,0.08);
+            --glass: rgba(248,249,252,0.7);
+            --nav-bg: rgba(248,249,252,0.85);
+        }
+        [data-theme="light"] .dot-grid { background-image: radial-gradient(rgba(168,85,247,0.06) 1px, transparent 1px); }
+        [data-theme="light"] .hero-bg .orb { opacity: .1; }
+        [data-theme="light"] .mouse-glow { background: radial-gradient(circle, rgba(168,85,247,0.04) 0%, transparent 70%); }
+        [data-theme="light"] .scroll-progress { height: 3px; }
+        [data-theme="light"] .co-chip { background: var(--bg-2); }
+        [data-theme="light"] .testi-wrapper::before { background: linear-gradient(90deg, var(--bg), transparent); }
+        [data-theme="light"] .testi-wrapper::after { background: linear-gradient(270deg, var(--bg), transparent); }
+        [data-theme="light"] .tag { background: var(--bg-2); }
+        [data-theme="light"] .skill-tags span { background: var(--bg-2); color: var(--text); }
+        [data-theme="light"] .proj-tags span { background: rgba(168,85,247,0.08); }
+        [data-theme="light"] .form-input { background: var(--bg-2); color: var(--text); border-color: var(--border); }
+        [data-theme="light"] .modal { background: var(--bg-card); }
+        [data-theme="light"] .modal-header { background: var(--bg-card); }
+        [data-theme="light"] img { filter: none; }
+        html { scroll-behavior: smooth; }
+        body { font-family: var(--sans); background: var(--bg); color: var(--text); line-height: 1.7; overflow-x: hidden; transition: background .4s, color .4s; }
+        a { color: var(--accent-l); text-decoration: none; transition: color var(--tr); }
+        a:hover { color: #d8b4fe; }
+        img { max-width: 100%; display: block; }
+        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        ::-webkit-scrollbar-track { background: var(--bg); }
+        ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+
+        .hero-inline-pic { width: 56px; height: 56px; border-radius: 50%; object-fit: cover; object-position: center 15%; border: 2px solid var(--border); display: inline-block; vertical-align: middle; margin-right: 10px; box-shadow: 0 4px 15px rgba(0,0,0,0.3); }
+
+        .scroll-progress { position: fixed; top: 0; left: 0; height: 3px; background: linear-gradient(90deg, var(--accent), var(--cyan), var(--pink), var(--accent)); background-size: 300% 100%; animation: gradient-shift 4s ease infinite; z-index: 200; width: 0%; transition: width 0.1s linear; }
+        @keyframes gradient-shift { 0%{background-position:0% 50%;} 50%{background-position:100% 50%;} 100%{background-position:0% 50%;} }
+
+        .dot-grid { position: fixed; inset: 0; z-index: -1; background-image: radial-gradient(rgba(168,85,247,0.08) 1px, transparent 1px); background-size: 30px 30px; pointer-events: none; }
+
+        .mouse-glow { position: fixed; width: 400px; height: 400px; border-radius: 50%; background: radial-gradient(circle, rgba(168,85,247,0.06) 0%, transparent 70%); pointer-events: none; z-index: -1; transform: translate(-50%,-50%); transition: left 0.3s ease, top 0.3s ease; }
+
+        .grad-animated { background: linear-gradient(270deg, var(--accent-l), var(--cyan), var(--pink), var(--accent-l)); background-size: 400% 400%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: grad-flow 6s ease infinite; }
+        @keyframes grad-flow { 0%{background-position:0% 50%;} 50%{background-position:100% 50%;} 100%{background-position:0% 50%;} }
+
+        .typing-cursor::after { content: '|'; animation: cursor-blink .8s step-end infinite; color: var(--accent-l); font-weight: 300; }
+        @keyframes cursor-blink { 0%,100%{opacity:1;} 50%{opacity:0;} }
+
+        .glow-card { position: relative; overflow: hidden; }
+        .glow-card::after { content: ''; position: absolute; inset: 0; opacity: 0; transition: opacity 0.4s; background: radial-gradient(600px circle at var(--mouse-x,50%) var(--mouse-y,50%), rgba(168,85,247,0.06), transparent 60%); pointer-events: none; z-index: 0; }
+        .glow-card:hover::after { opacity: 1; }
+        .glow-card > * { position: relative; z-index: 1; }
+
+        .gradient-border { position: relative; }
+        .gradient-border::before { content: ''; position: absolute; inset: -1px; border-radius: inherit; background: linear-gradient(135deg, var(--accent), var(--cyan), var(--pink), var(--accent)); background-size: 300% 300%; animation: grad-flow 6s ease infinite; z-index: -1; opacity: 0; transition: opacity 0.4s; }
+        .gradient-border:hover::before { opacity: 1; }
+
+        .reveal-stagger > * { opacity: 0; transform: translateY(25px); transition: opacity 0.5s ease, transform 0.5s ease; }
+        .reveal-stagger.visible > *:nth-child(1) { transition-delay: 0s; }
+        .reveal-stagger.visible > *:nth-child(2) { transition-delay: .1s; }
+        .reveal-stagger.visible > *:nth-child(3) { transition-delay: .2s; }
+        .reveal-stagger.visible > *:nth-child(4) { transition-delay: .3s; }
+        .reveal-stagger.visible > *:nth-child(5) { transition-delay: .4s; }
+        .reveal-stagger.visible > *:nth-child(6) { transition-delay: .5s; }
+        .reveal-stagger.visible > *:nth-child(7) { transition-delay: .6s; }
+        .reveal-stagger.visible > *:nth-child(8) { transition-delay: .7s; }
+        .reveal-stagger.visible > * { opacity: 1; transform: translateY(0); }
+
+        .float-anim { animation: float-y 4s ease-in-out infinite; }
+        .float-anim:nth-child(2) { animation-delay: -1.5s; }
+        .float-anim:nth-child(3) { animation-delay: -3s; }
+        @keyframes float-y { 0%,100%{transform:translateY(0);} 50%{transform:translateY(-12px);} }
+
+        .btn-p { position: relative; }
+        .btn-p::before { content: ''; position: absolute; inset: -4px; border-radius: 14px; border: 2px solid var(--accent); opacity: 0; animation: btn-ring 2.5s ease-out infinite; }
+        @keyframes btn-ring { 0%{opacity:.6;transform:scale(1);} 100%{opacity:0;transform:scale(1.15);} }
+
+        .glow-divider { height: 1px; background: linear-gradient(90deg, transparent, var(--accent), var(--cyan), var(--accent), transparent); margin: 0 auto; max-width: 600px; opacity: .5; }
+
+        .count-up { display: inline-block; }
+
+        .nav { position: fixed; top: 0; left: 0; right: 0; z-index: 100; background: var(--nav-bg); backdrop-filter: blur(20px); border-bottom: 1px solid transparent; transition: all var(--tr); }
+        .nav.scrolled { border-bottom-color: var(--border); box-shadow: 0 4px 30px rgba(0,0,0,0.15); }
+        .nav-inner { max-width: var(--max-w); margin: 0 auto; padding: 0 2rem; display: flex; align-items: center; justify-content: space-between; height: 64px; }
+        .nav-logo { font-weight: 800; font-size: 1.2rem; color: var(--text); display: flex; align-items: center; gap: 8px; }
+        .nav-logo .dot { width: 8px; height: 8px; background: var(--green); border-radius: 50%; animation: blink 2s infinite; }
+        @keyframes blink { 0%,100%{opacity:1;} 50%{opacity:.3;} }
+        .nav-links { display: flex; gap: 2rem; list-style: none; }
+        .nav-links a { color: var(--text-2); font-size: .85rem; font-weight: 500; letter-spacing: .02em; position: relative; }
+        .nav-links a:hover { color: var(--text); }
+        .nav-links a::after { content:''; position: absolute; bottom: -4px; left: 0; width: 0; height: 2px; background: var(--accent); transition: width var(--tr); border-radius: 1px; }
+        .nav-links a:hover::after { width: 100%; }
+        .nav-toggle { display: none; background: none; border: none; color: var(--text); font-size: 1.5rem; cursor: pointer; }
+        .nav-right { display: flex; align-items: center; gap: .75rem; }
+        .nav-cta { padding: 8px 20px; background: var(--accent); color: #fff; border-radius: 8px; font-weight: 600; font-size: .85rem; transition: all var(--tr); border: none; cursor: pointer; font-family: var(--sans); }
+        .nav-cta:hover { background: var(--accent-l); color: #fff; transform: translateY(-1px); box-shadow: 0 6px 20px rgba(168,85,247,0.3); }
+
+        .theme-toggle { width: 40px; height: 40px; border-radius: 50%; border: 1px solid var(--border); background: var(--bg-card); color: var(--text); cursor: pointer; display: flex; align-items: center; justify-content: center; font-size: 1.15rem; transition: all var(--tr); flex-shrink: 0; }
+        .theme-toggle:hover { border-color: var(--accent); background: var(--accent-glow); transform: rotate(30deg); }
+
+        .avail-banner { background: linear-gradient(90deg, var(--accent), var(--pink)); text-align: center; padding: 8px 1rem; font-size: .82rem; font-weight: 600; color: #fff; letter-spacing: .03em; position: relative; z-index: 101; }
+        .avail-banner .avail-dot { display: inline-block; width: 7px; height: 7px; background: var(--green); border-radius: 50%; margin-right: 8px; animation: blink 1.5s infinite; vertical-align: middle; }
+        .avail-banner a { color: #fff; text-decoration: underline; text-underline-offset: 2px; margin-left: 6px; font-weight: 700; }
+        .nav { top: 36px; }
+        .scroll-progress { top: 36px; }
+
+        .section { max-width: var(--max-w); margin: 0 auto; padding: 6rem 2rem; }
+        .section-tag { display: inline-flex; align-items: center; gap: 8px; font-family: var(--mono); font-size: .7rem; color: var(--accent-l); letter-spacing: .15em; text-transform: uppercase; margin-bottom: .75rem; font-weight: 500; }
+        .section-tag::before { content:''; width: 24px; height: 1px; background: var(--accent); }
+        .section-title { font-size: 2.75rem; font-weight: 800; line-height: 1.15; margin-bottom: 1rem; letter-spacing: -.02em; }
+        .section-sub { color: var(--text-2); font-size: 1.1rem; max-width: 600px; }
+
+        .hero { min-height: 100vh; display: grid; grid-template-columns: 1fr 1fr; align-items: center; gap: 3rem; position: relative; overflow: hidden; }
+        .hero-bg { position: absolute; inset: 0; z-index: 0; }
+        .hero-bg .orb { position: absolute; border-radius: 50%; filter: blur(120px); opacity: .25; }
+        .hero-bg .o1 { width: 600px; height: 600px; background: var(--accent); top: -200px; right: -200px; animation: drift 12s ease-in-out infinite; }
+        .hero-bg .o2 { width: 400px; height: 400px; background: var(--pink); bottom: -150px; left: -100px; animation: drift 12s ease-in-out infinite reverse; }
+        .hero-bg .o3 { width: 350px; height: 350px; background: var(--cyan); top: 50%; left: 30%; animation: drift 15s ease-in-out infinite; animation-delay: -4s; opacity: .15; }
+        @keyframes drift { 0%,100%{transform:translate(0,0);} 50%{transform:translate(30px,-30px);} }
+        .hero-left { position: relative; z-index: 1; }
+        .hero-badge { display: inline-flex; align-items: center; gap: 8px; background: var(--accent-glow); border: 1px solid rgba(168,85,247,0.25); padding: 6px 18px; border-radius: 100px; font-size: .85rem; color: var(--accent-l); font-weight: 500; margin-bottom: 2rem; }
+        .hero-badge .pulse { width: 6px; height: 6px; background: var(--green); border-radius: 50%; animation: blink 2s infinite; }
+        .hero h1 { font-size: clamp(2.5rem,5.5vw,4rem); font-weight: 900; line-height: 1.08; margin-bottom: 1.5rem; letter-spacing: -.03em; }
+        .hero h1 .grad { background: linear-gradient(270deg, var(--accent-l), var(--cyan), var(--pink), var(--accent-l)); background-size: 400% 400%; -webkit-background-clip: text; -webkit-text-fill-color: transparent; background-clip: text; animation: grad-flow 6s ease infinite; }
+        .hero-desc { font-size: 1.1rem; color: var(--text-2); max-width: 520px; margin-bottom: 2rem; line-height: 1.8; }
+        .hero-desc strong { color: var(--text); }
+        .hero-actions { display: flex; gap: 1rem; margin-bottom: 2.5rem; flex-wrap: wrap; }
+        .btn { display: inline-flex; align-items: center; gap: 8px; padding: 13px 28px; border-radius: 10px; font-weight: 600; font-size: .95rem; transition: all var(--tr); cursor: pointer; border: none; font-family: var(--sans); }
+        .btn-p { background: var(--accent); color: #fff; }
+        .btn-p:hover { background: var(--accent-l); color: #fff; transform: translateY(-2px); box-shadow: 0 10px 30px rgba(168,85,247,0.3); }
+        .btn-o { background: transparent; color: var(--text); border: 1px solid var(--border); }
+        .btn-o:hover { border-color: var(--accent); color: var(--accent-l); transform: translateY(-2px); }
+        .hero-stats { display: flex; gap: 2.5rem; padding-top: 2rem; border-top: 1px solid var(--border); }
+        .hero-stat .num { font-size: 1.75rem; font-weight: 800; }
+        .hero-stat .lbl { font-size: .8rem; color: var(--text-3); margin-top: 2px; }
+
+        .hero-right { position: relative; z-index: 1; display: flex; justify-content: center; }
+        .hero-cards { display: flex; flex-direction: column; gap: 1rem; width: 340px; }
+        .hero-action-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 1.25rem 1.5rem; display: flex; align-items: center; gap: 1rem; cursor: pointer; transition: all var(--tr); text-decoration: none; color: var(--text); position: relative; overflow: hidden; }
+        .hero-action-card::before { content: ''; position: absolute; left: 0; top: 0; bottom: 0; width: 4px; border-radius: 0 4px 4px 0; transition: width var(--tr); }
+        .hero-action-card:hover { border-color: var(--accent); transform: translateX(-6px); box-shadow: 0 10px 35px rgba(0,0,0,0.3); color: var(--text); }
+        .hero-action-card:hover::before { width: 6px; }
+        .hero-action-card.card-hire::before { background: var(--cyan); }
+        .hero-action-card.card-comm::before { background: var(--orange); }
+        .hero-action-card.card-pres::before { background: var(--pink); }
+        .hero-action-card.card-lead::before { background: var(--green); }
+        .hero-action-card .card-icon { font-size: 2rem; flex-shrink: 0; width: 48px; height: 48px; border-radius: 12px; display: flex; align-items: center; justify-content: center; }
+        .card-hire .card-icon { background: rgba(6,182,212,0.12); }
+        .card-comm .card-icon { background: rgba(245,158,11,0.12); }
+        .card-pres .card-icon { background: rgba(236,72,153,0.12); }
+        .card-lead .card-icon { background: rgba(34,197,94,0.12); }
+        .hero-action-card .card-title { font-weight: 700; font-size: 1rem; margin-bottom: 2px; }
+        .hero-action-card .card-desc { font-size: .8rem; color: var(--text-3); }
+        .hero-action-card .card-arrow { margin-left: auto; font-size: 1.2rem; color: var(--text-3); transition: transform var(--tr), color var(--tr); }
+        .hero-action-card:hover .card-arrow { transform: translateX(4px); color: var(--accent-l); }
+        @keyframes card-slide-in { from { opacity: 0; transform: translateX(30px); } to { opacity: 1; transform: translateX(0); } }
+        .hero-cards .hero-action-card:nth-child(1) { animation: card-slide-in 0.6s ease both; animation-delay: 0.3s; }
+        .hero-cards .hero-action-card:nth-child(2) { animation: card-slide-in 0.6s ease both; animation-delay: 0.5s; }
+        .hero-cards .hero-action-card:nth-child(3) { animation: card-slide-in 0.6s ease both; animation-delay: 0.7s; }
+        .hero-cards .hero-action-card:nth-child(4) { animation: card-slide-in 0.6s ease both; animation-delay: 0.9s; }
+
+        .marquee-wrap { padding: 3.5rem 0; overflow: hidden; border-top: 1px solid var(--border); border-bottom: 1px solid var(--border); background: var(--bg-2); }
+        .marquee-label { text-align: center; font-family: var(--mono); font-size: .7rem; color: var(--text-3); letter-spacing: .2em; text-transform: uppercase; margin-bottom: 1.25rem; }
+        .marquee-track { display: flex; width: max-content; animation: scroll-x 40s linear infinite; }
+        .marquee-track:hover { animation-play-state: paused; }
+        .marquee-group { display: flex; gap: 2rem; padding: 0 1rem; align-items: center; }
+        .co-chip { display: flex; align-items: center; gap: 10px; padding: 10px 22px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 100px; white-space: nowrap; transition: all var(--tr); flex-shrink: 0; }
+        .co-chip:hover { border-color: var(--accent); background: var(--accent-glow); transform: scale(1.05); }
+        .co-chip .icon { font-size: 1.2rem; }
+        .co-chip .name { font-weight: 600; font-size: .9rem; }
+        .co-chip .badge { font-size: .7rem; padding: 2px 8px; border-radius: 100px; font-weight: 600; }
+        .badge-ok { background: rgba(34,197,94,0.15); color: var(--green); }
+        .badge-join { background: rgba(168,85,247,0.15); color: var(--accent-l); }
+        .badge-founded { background: rgba(236,72,153,0.15); color: var(--pink); }
+        @keyframes scroll-x { 0%{transform:translateX(0);} 100%{transform:translateX(-50%);} }
+
+        .about-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2rem; }
+        .about-text { color: var(--text-2); font-size: 1.05rem; line-height: 1.9; }
+        .about-text strong { color: var(--text); }
+        .about-photo { border-radius: var(--r); overflow: hidden; border: 1px solid var(--border); }
+        .about-photo img { width: 100%; height: 100%; object-fit: cover; }
+
+        .exp-list { margin-top: 2.5rem; display: flex; flex-direction: column; gap: 2rem; }
+        .exp-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 2rem; display: grid; grid-template-columns: auto 1fr; gap: 1.5rem; transition: all var(--tr); }
+        .exp-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 16px 50px rgba(0,0,0,0.3); }
+        .exp-logo { width: 56px; height: 56px; border-radius: 12px; background: var(--bg-2); border: 1px solid var(--border); display: flex; align-items: center; justify-content: center; font-size: 1.5rem; flex-shrink: 0; }
+        .exp-header { display: flex; align-items: baseline; gap: 1rem; flex-wrap: wrap; margin-bottom: .4rem; }
+        .exp-company { font-size: 1.2rem; font-weight: 700; }
+        .exp-role { color: var(--accent-l); font-weight: 500; font-size: .95rem; }
+        .exp-period { font-family: var(--mono); font-size: .78rem; color: var(--text-3); }
+        .exp-desc { color: var(--text-2); font-size: .92rem; margin-top: .4rem; }
+        .exp-desc li { margin-left: 1.2rem; margin-bottom: .3rem; }
+        .exp-tags { display: flex; gap: .5rem; flex-wrap: wrap; margin-top: .75rem; }
+        .tag { font-size: .73rem; padding: 4px 12px; border-radius: 100px; background: var(--bg-2); border: 1px solid var(--border); color: var(--text-2); font-weight: 500; }
+
+        .skills-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2.5rem; }
+        .skill-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 2rem; transition: all var(--tr); }
+        .skill-card:hover { border-color: var(--accent); transform: translateY(-4px); box-shadow: 0 16px 50px rgba(0,0,0,0.3); }
+        .skill-icon { font-size: 2rem; margin-bottom: .75rem; }
+        .skill-name { font-weight: 700; font-size: 1.05rem; margin-bottom: .5rem; }
+        .skill-desc { color: var(--text-2); font-size: .88rem; margin-bottom: 1rem; line-height: 1.6; }
+        .skill-tags { display: flex; flex-wrap: wrap; gap: 6px; }
+        .skill-tags span { font-size: .78rem; padding: 4px 12px; border-radius: 8px; background: var(--bg-2); border: 1px solid var(--border); color: var(--text); font-weight: 500; transition: all var(--tr); }
+        .skill-tags span:hover { border-color: var(--accent); background: var(--accent-glow); }
+
+        .edu-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3rem; margin-top: 2.5rem; align-items: start; }
+        .edu-list { display: flex; flex-direction: column; gap: 1.5rem; }
+        .edu-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 1.75rem; transition: all var(--tr); }
+        .edu-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+        .edu-school { font-weight: 700; font-size: 1.05rem; margin-bottom: .3rem; }
+        .edu-degree { color: var(--accent-l); font-size: .92rem; font-weight: 500; }
+        .edu-detail { color: var(--text-3); font-size: .85rem; font-family: var(--mono); margin-top: .4rem; }
+
+        .sessions-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+        .session-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 2rem; text-align: center; transition: all var(--tr); position: relative; overflow: hidden; }
+        .session-card:hover { border-color: var(--accent); transform: translateY(-5px); box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+        .session-card.popular::before { content: 'POPULAR'; position: absolute; top: 16px; right: -30px; background: var(--accent); color: #fff; font-size: .65rem; font-weight: 700; padding: 3px 36px; transform: rotate(45deg); letter-spacing: .05em; }
+        .session-icon { font-size: 2.5rem; margin-bottom: 1rem; }
+        .session-name { font-weight: 700; font-size: 1.1rem; margin-bottom: .3rem; }
+        .session-type { color: var(--text-3); font-size: .82rem; margin-bottom: 1rem; }
+        .session-price { display: flex; align-items: center; justify-content: center; gap: .75rem; margin-bottom: 1.25rem; }
+        .session-price .current { font-size: 1.5rem; font-weight: 800; color: var(--text); }
+        .session-price .original { font-size: .95rem; color: var(--text-3); text-decoration: line-through; }
+        .session-rating { color: var(--orange); font-size: .9rem; margin-bottom: 1rem; }
+        .session-btn { display: inline-flex; align-items: center; gap: 6px; padding: 10px 24px; background: var(--accent); color: #fff; border-radius: 8px; font-weight: 600; font-size: .9rem; transition: all var(--tr); }
+        .session-btn:hover { background: var(--accent-l); color: #fff; transform: translateY(-2px); box-shadow: 0 8px 24px rgba(168,85,247,0.3); }
+
+        .services-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 2rem; margin-top: 2.5rem; }
+        .service-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 2.5rem; position: relative; overflow: hidden; transition: all var(--tr); }
+        .service-card:hover { border-color: var(--accent); transform: translateY(-5px); box-shadow: 0 20px 60px rgba(0,0,0,0.4); }
+        .service-card::before { content: ''; position: absolute; top: 0; left: 0; right: 0; height: 4px; background: linear-gradient(90deg, var(--accent), var(--cyan)); }
+        .service-card.premium::before { background: linear-gradient(90deg, var(--orange), var(--pink), var(--accent)); }
+        .service-badge { display: inline-block; font-size: .7rem; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; padding: 4px 12px; border-radius: 100px; margin-bottom: 1.25rem; }
+        .service-badge-web { background: rgba(6,182,212,0.12); color: var(--cyan); border: 1px solid rgba(6,182,212,0.25); }
+        .service-badge-app { background: rgba(245,158,11,0.12); color: var(--orange); border: 1px solid rgba(245,158,11,0.25); }
+        .service-title { font-size: 1.4rem; font-weight: 800; margin-bottom: .5rem; }
+        .service-desc { color: var(--text-2); font-size: .95rem; line-height: 1.8; margin-bottom: 1.25rem; }
+        .service-features { list-style: none; margin-bottom: 1.5rem; }
+        .service-features li { padding: 6px 0; font-size: .9rem; color: var(--text-2); display: flex; align-items: center; gap: 8px; }
+        .service-features li::before { content: '✓'; color: var(--green); font-weight: 700; font-size: .85rem; flex-shrink: 0; }
+        .service-price-row { display: flex; align-items: baseline; gap: .75rem; margin-bottom: 1.5rem; }
+        .service-price-row .price { font-size: 2rem; font-weight: 900; }
+        .service-price-row .price-note { font-size: .85rem; color: var(--text-3); }
+        @media (max-width: 768px) { .services-grid { grid-template-columns: 1fr; } }
+
+        .projects-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+        .proj-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 2rem; transition: all var(--tr); display: flex; flex-direction: column; position: relative; overflow: hidden; }
+        .proj-card::before { content:''; position: absolute; top: 0; left: 0; right: 0; height: 3px; background: linear-gradient(90deg, var(--accent), var(--cyan)); transform: scaleX(0); transition: transform var(--tr); transform-origin: left; }
+        .proj-card:hover::before { transform: scaleX(1); }
+        .proj-card:hover { border-color: var(--accent); transform: translateY(-5px); box-shadow: 0 16px 50px rgba(0,0,0,0.4); }
+        .proj-icon { font-size: 2rem; margin-bottom: .75rem; }
+        .proj-name { font-size: 1.15rem; font-weight: 700; margin-bottom: .5rem; }
+        .proj-desc { color: var(--text-2); font-size: .9rem; flex: 1; margin-bottom: 1rem; }
+        .proj-tags { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 1rem; }
+        .proj-tags span { font-size: .73rem; padding: 3px 10px; border-radius: 6px; background: var(--accent-glow); color: var(--accent-l); font-weight: 500; }
+
+        .testi-header { text-align: center; }
+        .testi-badge { display: inline-flex; align-items: center; gap: 10px; background: var(--bg-card); border: 1px solid var(--border); border-radius: 100px; padding: 10px 24px; margin-top: 1rem; }
+        .testi-badge .stars { color: var(--orange); font-size: 1.1rem; letter-spacing: 2px; }
+        .testi-badge .info { color: var(--text-2); font-size: .88rem; font-weight: 500; }
+        .testi-badge .info strong { color: var(--text); }
+        .testi-wrapper { overflow: hidden; margin-top: 2rem; padding: 1rem 0; position: relative; }
+        .testi-wrapper::before, .testi-wrapper::after { content: ''; position: absolute; top: 0; bottom: 0; width: 80px; z-index: 2; pointer-events: none; }
+        .testi-wrapper::before { left: 0; background: linear-gradient(90deg, var(--bg), transparent); }
+        .testi-wrapper::after { right: 0; background: linear-gradient(270deg, var(--bg), transparent); }
+        .testi-track { display: flex; gap: 1.5rem; width: max-content; animation: testi-scroll 45s linear infinite; }
+        .testi-track:hover { animation-play-state: paused; }
+        @keyframes testi-scroll { 0%{transform:translateX(0);} 100%{transform:translateX(-50%);} }
+        .testi-card { flex: 0 0 380px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 2rem; position: relative; transition: border-color var(--tr), box-shadow var(--tr); }
+        .testi-card:hover { border-color: var(--accent); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+        .testi-card::before { content:'\201C'; position: absolute; top: 12px; left: 18px; font-size: 3rem; color: var(--accent); opacity: .2; font-family: Georgia, serif; line-height: 1; }
+        .testi-stars { color: var(--orange); font-size: .85rem; letter-spacing: 1px; margin-bottom: .75rem; }
+        .testi-text { color: var(--text-2); font-size: .92rem; line-height: 1.8; margin-bottom: 1rem; position: relative; z-index: 1; }
+        .testi-author { display: flex; align-items: center; gap: 10px; }
+        .testi-avatar { width: 36px; height: 36px; border-radius: 50%; background: linear-gradient(135deg, var(--accent), var(--cyan)); display: flex; align-items: center; justify-content: center; font-weight: 700; font-size: .8rem; color: #fff; flex-shrink: 0; }
+        .testi-name { font-weight: 600; font-size: .88rem; }
+        .testi-role { font-size: .78rem; color: var(--text-3); }
+
+        .video-section { text-align: center; }
+        .video-main { max-width: 800px; margin: 2rem auto 0; border-radius: var(--r); overflow: hidden; border: 1px solid var(--border); box-shadow: 0 16px 50px rgba(0,0,0,0.4); transition: all var(--tr); }
+        .video-main:hover { border-color: var(--accent); box-shadow: 0 20px 60px rgba(168,85,247,0.15); }
+        .video-resp { position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; }
+        .video-resp iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; border: 0; }
+
+        .achieve-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 1.5rem; margin-top: 2.5rem; }
+        .achieve-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 1.75rem; display: flex; align-items: flex-start; gap: 1rem; transition: all var(--tr); }
+        .achieve-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); }
+        .achieve-icon { font-size: 2rem; flex-shrink: 0; }
+        .achieve-title { font-weight: 600; margin-bottom: .3rem; }
+        .achieve-desc { color: var(--text-2); font-size: .9rem; }
+
+        .expertise-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 2.5rem; }
+        .expertise-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 2rem; text-align: center; transition: all var(--tr); }
+        .expertise-card:hover { border-color: var(--accent); transform: translateY(-5px); box-shadow: 0 16px 50px rgba(0,0,0,0.4); }
+        .expertise-icon { font-size: 2.5rem; margin-bottom: .75rem; }
+        .expertise-name { font-size: 1.1rem; font-weight: 700; margin-bottom: .75rem; }
+        .expertise-items { list-style: none; color: var(--text-2); font-size: .9rem; }
+        .expertise-items li { padding: 4px 0; }
+
+        .contact-center { text-align: center; }
+        .contact-grid { display: flex; justify-content: center; gap: 1.5rem; flex-wrap: wrap; margin-top: 2.5rem; }
+        .contact-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 1.5rem 2.5rem; display: flex; align-items: center; gap: 1rem; transition: all var(--tr); min-width: 220px; justify-content: center; }
+        .contact-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 12px 40px rgba(0,0,0,0.3); color: var(--text); }
+        .contact-card svg { width: 24px; height: 24px; fill: currentColor; flex-shrink: 0; }
+        .c-icon { font-size: 1.5rem; }
+        .c-label { font-weight: 600; font-size: .95rem; }
+        .c-value { font-size: .82rem; color: var(--text-3); }
+
+        footer { text-align: center; padding: 2.5rem 2rem; border-top: 1px solid var(--border); color: var(--text-3); font-size: .85rem; }
+        footer a { color: var(--accent-l); }
+
+        .philosophy { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); padding: 3rem; margin-top: 2.5rem; text-align: center; }
+        .philosophy-quote { font-size: 1.25rem; font-style: italic; color: var(--text); max-width: 700px; margin: 0 auto 2rem; line-height: 1.8; }
+        .philosophy-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1.5rem; }
+        .principle-icon { font-size: 1.5rem; margin-bottom: .5rem; }
+        .principle-title { font-weight: 600; font-size: .95rem; margin-bottom: .2rem; }
+        .principle-desc { color: var(--text-2); font-size: .82rem; }
+
+        .reveal { opacity: 0; transform: translateY(30px); transition: opacity 0.7s cubic-bezier(0.16,1,0.3,1), transform 0.7s cubic-bezier(0.16,1,0.3,1); }
+        .reveal.visible { opacity: 1; transform: translateY(0); }
+        .reveal-left { opacity: 0; transform: translateX(-40px); transition: opacity 0.7s cubic-bezier(0.16,1,0.3,1), transform 0.7s cubic-bezier(0.16,1,0.3,1); }
+        .reveal-left.visible { opacity: 1; transform: translateX(0); }
+        .reveal-right { opacity: 0; transform: translateX(40px); transition: opacity 0.7s cubic-bezier(0.16,1,0.3,1), transform 0.7s cubic-bezier(0.16,1,0.3,1); }
+        .reveal-right.visible { opacity: 1; transform: translateX(0); }
+
+        /* Courses Tracker */
+        .dsa-summary { display: flex; justify-content: center; gap: 2rem; flex-wrap: wrap; margin: 2rem 0; }
+        .dsa-stat { text-align: center; background: var(--bg-card); border: 1px solid var(--border); border-radius: 14px; padding: 1.25rem 2rem; min-width: 130px; transition: all .35s; }
+        .dsa-stat:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 8px 30px rgba(0,0,0,.3); }
+        .dsa-stat .ds-num { font-size: 2rem; font-weight: 800; font-family: var(--mono); color: var(--accent); }
+        .dsa-stat .ds-label { font-size: .72rem; color: var(--text-3); text-transform: uppercase; letter-spacing: .1em; margin-top: 4px; }
+        .dsa-categories { display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; margin-top: 1.5rem; }
+        .dsa-cat-card { background: var(--bg-card); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; transition: all .35s; }
+        .dsa-cat-card:hover { border-color: var(--accent); transform: translateY(-3px); box-shadow: 0 8px 30px rgba(0,0,0,.3); }
+        .dsa-cat-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 1rem; }
+        .dsa-cat-header h3 { font-size: 1rem; font-weight: 700; display: flex; align-items: center; gap: 8px; }
+        .dsa-cat-header .cat-count { font-size: .8rem; font-family: var(--mono); color: var(--accent); background: var(--accent-glow); padding: 2px 10px; border-radius: 12px; }
+        .dsa-problem { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; border-bottom: 1px solid var(--border); font-size: .85rem; }
+        .dsa-problem:last-child { border-bottom: none; }
+        .dsa-problem .prob-name { color: var(--text); font-weight: 500; }
+        .dsa-problem .prob-diff { font-size: .72rem; font-weight: 600; padding: 2px 10px; border-radius: 10px; text-transform: uppercase; letter-spacing: .05em; }
+        .diff-easy { background: rgba(34,197,94,.12); color: #22c55e; }
+        .diff-medium { background: rgba(245,158,11,.12); color: #f59e0b; }
+        .diff-hard { background: rgba(239,68,68,.12); color: #ef4444; }
+
+        /* Rating Widget */
+        .rating-tab { position: fixed; right: 0; top: 50%; transform: translateY(-50%); z-index: 90; writing-mode: vertical-rl; text-orientation: mixed; background: var(--accent); color: #fff; padding: 12px 10px; border-radius: 10px 0 0 10px; font-size: .8rem; font-weight: 700; cursor: pointer; letter-spacing: .05em; transition: all var(--tr); box-shadow: -4px 0 20px rgba(168,85,247,0.3); }
+        .rating-tab:hover { padding-right: 14px; background: var(--accent-l); }
+        .rating-panel { position: fixed; right: -400px; top: 50%; transform: translateY(-50%); z-index: 91; width: 340px; background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r) 0 0 var(--r); box-shadow: -10px 0 40px rgba(0,0,0,0.5); transition: right 0.4s cubic-bezier(0.4,0,0.2,1); padding: 1.75rem; }
+        .rating-panel.open { right: 0; }
+        .rating-panel-close { position: absolute; top: 12px; right: 14px; background: none; border: none; color: var(--text-2); font-size: 1.3rem; cursor: pointer; }
+        .rating-panel h4 { font-size: 1.1rem; font-weight: 700; margin-bottom: .25rem; }
+        .rating-panel .panel-sub { font-size: .85rem; color: var(--text-2); margin-bottom: 1.25rem; }
+        .star-row { display: flex; gap: 6px; margin-bottom: 1rem; }
+        .star-row .star { font-size: 2rem; cursor: pointer; color: var(--border); transition: color .15s, transform .15s; }
+        .star-row .star:hover, .star-row .star.active { color: var(--orange); transform: scale(1.15); }
+        .star-row .star.hovered { color: var(--orange); }
+        .rating-comment { width: 100%; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg-2); color: var(--text); font-size: .9rem; font-family: var(--sans); resize: vertical; min-height: 70px; transition: border-color var(--tr); }
+        .rating-comment:focus { outline: none; border-color: var(--accent); }
+        .rating-submit { width: 100%; margin-top: .75rem; padding: 12px; border-radius: 10px; border: none; background: var(--accent); color: #fff; font-weight: 700; font-size: .95rem; cursor: pointer; font-family: var(--sans); transition: all var(--tr); }
+        .rating-submit:hover { background: var(--accent-l); transform: translateY(-1px); }
+        .rating-submit:disabled { opacity: .5; cursor: not-allowed; }
+        .rating-avg { text-align: center; margin-bottom: 1rem; padding: 10px; background: var(--bg-2); border-radius: 10px; border: 1px solid var(--border); }
+        .rating-avg .avg-stars { color: var(--orange); font-size: 1.1rem; letter-spacing: 2px; }
+        .rating-avg .avg-text { font-size: .8rem; color: var(--text-3); margin-top: 2px; }
+        .rating-thanks { text-align: center; padding: 2rem 0; }
+        .rating-thanks .check { font-size: 2.5rem; margin-bottom: .5rem; }
+
+        /* Booking Modal */
+        .modal-overlay { display: none; position: fixed; inset: 0; z-index: 500; background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); align-items: center; justify-content: center; padding: 1rem; }
+        .modal-overlay.active { display: flex; }
+        .modal { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); max-width: 560px; width: 100%; max-height: 90vh; overflow-y: auto; position: relative; }
+        .modal-header { padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); display: flex; align-items: center; justify-content: space-between; position: sticky; top: 0; background: var(--bg-card); z-index: 2; border-radius: var(--r) var(--r) 0 0; }
+        .modal-header h3 { font-size: 1.2rem; font-weight: 700; }
+        .modal-close { background: none; border: none; color: var(--text-2); font-size: 1.5rem; cursor: pointer; padding: 4px 8px; border-radius: 8px; transition: all var(--tr); }
+        .modal-close:hover { background: var(--bg-2); color: var(--text); }
+        .modal-body { padding: 2rem; }
+        .modal-step { display: none; }
+        .modal-step.active { display: block; }
+        .form-group { margin-bottom: 1.25rem; }
+        .form-label { display: block; font-size: .85rem; font-weight: 600; color: var(--text-2); margin-bottom: .5rem; }
+        .form-input { width: 100%; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg-2); color: var(--text); font-size: .95rem; font-family: var(--sans); transition: border-color var(--tr); }
+        .form-input:focus { outline: none; border-color: var(--accent); }
+        .form-input::placeholder { color: var(--text-3); }
+        .date-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(90px, 1fr)); gap: .5rem; }
+        .date-btn { padding: 10px 6px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg-2); color: var(--text); font-size: .8rem; font-family: var(--sans); cursor: pointer; text-align: center; transition: all var(--tr); }
+        .date-btn:hover { border-color: var(--accent); background: var(--accent-glow); }
+        .date-btn.selected { border-color: var(--accent); background: var(--accent); color: #fff; }
+        .date-btn .day-name { font-size: .7rem; color: var(--text-3); display: block; }
+        .date-btn.selected .day-name { color: rgba(255,255,255,0.7); }
+        .time-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(120px, 1fr)); gap: .5rem; }
+        .time-btn { padding: 10px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg-2); color: var(--text); font-size: .85rem; font-family: var(--sans); cursor: pointer; text-align: center; transition: all var(--tr); }
+        .time-btn:hover { border-color: var(--accent); background: var(--accent-glow); }
+        .time-btn.selected { border-color: var(--accent); background: var(--accent); color: #fff; }
+        .booking-summary { background: var(--bg-2); border: 1px solid var(--border); border-radius: 10px; padding: 1.25rem; margin-bottom: 1.25rem; }
+        .summary-row { display: flex; justify-content: space-between; padding: 4px 0; font-size: .9rem; }
+        .summary-row .label { color: var(--text-2); }
+        .summary-row .value { font-weight: 600; }
+        .summary-row.total { border-top: 1px solid var(--border); margin-top: .5rem; padding-top: .75rem; font-size: 1rem; }
+        .summary-row.total .value { color: var(--green); }
+        .modal-btn { width: 100%; padding: 14px; border-radius: 10px; border: none; font-size: 1rem; font-weight: 700; cursor: pointer; font-family: var(--sans); transition: all var(--tr); }
+        .modal-btn-primary { background: var(--accent); color: #fff; }
+        .modal-btn-primary:hover { background: var(--accent-l); transform: translateY(-1px); box-shadow: 0 8px 24px rgba(168,85,247,0.3); }
+        .modal-btn-primary:disabled { opacity: .5; cursor: not-allowed; transform: none; box-shadow: none; }
+        .modal-btn-back { background: transparent; color: var(--text-2); border: 1px solid var(--border); margin-bottom: .75rem; }
+        .modal-btn-back:hover { border-color: var(--accent); color: var(--text); }
+        .success-check { width: 80px; height: 80px; border-radius: 50%; background: rgba(34,197,94,0.15); display: flex; align-items: center; justify-content: center; margin: 0 auto 1.5rem; font-size: 2.5rem; }
+        .selected-session-tag { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-glow); border: 1px solid rgba(168,85,247,0.3); padding: 6px 14px; border-radius: 100px; font-size: .85rem; color: var(--accent-l); margin-bottom: 1.5rem; }
+
+        /* Feedback Modal */
+        .feedback-overlay { display: none; position: fixed; inset: 0; z-index: 500; background: rgba(0,0,0,0.7); backdrop-filter: blur(8px); align-items: center; justify-content: center; padding: 1rem; }
+        .feedback-overlay.active { display: flex; }
+        .feedback-modal { background: var(--bg-card); border: 1px solid var(--border); border-radius: var(--r); max-width: 480px; width: 100%; padding: 2.5rem; text-align: center; position: relative; }
+        .feedback-modal h3 { font-size: 1.3rem; margin-bottom: .5rem; }
+        .feedback-modal .fb-sub { color: var(--text-2); font-size: .9rem; margin-bottom: 1.5rem; }
+        .fb-star-row { display: flex; gap: 8px; justify-content: center; margin-bottom: 1.25rem; }
+        .fb-star-row .fb-star { font-size: 2.5rem; cursor: pointer; color: var(--border); transition: color .15s, transform .15s; }
+        .fb-star-row .fb-star:hover, .fb-star-row .fb-star.active { color: var(--orange); transform: scale(1.15); }
+        .fb-star-row .fb-star.hovered { color: var(--orange); }
+        .fb-name-input { width: 100%; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg-2); color: var(--text); font-size: .9rem; font-family: var(--sans); margin-bottom: .75rem; }
+        .fb-name-input:focus { outline: none; border-color: var(--accent); }
+        .fb-textarea { width: 100%; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--border); background: var(--bg-2); color: var(--text); font-size: .9rem; font-family: var(--sans); resize: vertical; min-height: 80px; margin-bottom: .75rem; }
+        .fb-textarea:focus { outline: none; border-color: var(--accent); }
+        .fb-submit { width: 100%; padding: 12px; border-radius: 10px; border: none; background: var(--accent); color: #fff; font-weight: 700; font-size: .95rem; cursor: pointer; font-family: var(--sans); transition: all var(--tr); }
+        .fb-submit:hover { background: var(--accent-l); }
+        .fb-submit:disabled { opacity: .5; cursor: not-allowed; }
+        .fb-close { position: absolute; top: 12px; right: 16px; background: none; border: none; color: var(--text-2); font-size: 1.5rem; cursor: pointer; }
+        .fb-session-tag { display: inline-flex; align-items: center; gap: 6px; background: var(--accent-glow); border: 1px solid rgba(168,85,247,0.3); padding: 5px 14px; border-radius: 100px; font-size: .82rem; color: var(--accent-l); margin-bottom: 1rem; }
+        .dynamic-reviews { margin-top: 1.5rem; }
+        .dynamic-reviews-title { text-align: center; font-size: .85rem; color: var(--text-3); margin-bottom: 1rem; font-family: var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+
+        /* Booking Tracker Badge */
+        .booking-badge{position:fixed;bottom:24px;right:24px;z-index:150;background:var(--bg-card);border:1px solid var(--border);border-radius:14px;padding:12px 18px;display:flex;align-items:center;gap:10px;cursor:pointer;transition:all .35s;box-shadow:0 8px 30px rgba(0,0,0,.4);font-family:var(--mono)}
+        .booking-badge:hover{border-color:var(--accent);box-shadow:0 0 25px rgba(168,85,247,.2),0 8px 30px rgba(0,0,0,.5);transform:translateY(-3px)}
+        .booking-badge .badge-count{background:var(--accent);color:#fff;font-weight:800;font-size:1rem;min-width:28px;height:28px;border-radius:50%;display:flex;align-items:center;justify-content:center;box-shadow:0 0 12px rgba(168,85,247,.4)}
+        .booking-badge .badge-label{font-size:.8rem;color:var(--text-2);font-weight:500}
+        .booking-badge.has-bookings .badge-count{animation:pulse-badge 2s infinite}
+        @keyframes pulse-badge{0%,100%{transform:scale(1)}50%{transform:scale(1.15);box-shadow:0 0 20px rgba(168,85,247,.6)}}
+        .admin-overlay{display:none;position:fixed;inset:0;z-index:500;background:rgba(0,0,0,.8);backdrop-filter:blur(10px);align-items:center;justify-content:center;padding:1rem}
+        .admin-overlay.active{display:flex}
+        .admin-panel{background:var(--bg-card);border:1px solid var(--border);border-radius:16px;max-width:700px;width:100%;max-height:85vh;overflow-y:auto;position:relative}
+        .admin-header{padding:1.25rem 1.5rem;border-bottom:1px solid var(--border);display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;background:var(--bg-card);z-index:2;border-radius:16px 16px 0 0}
+        .admin-header h3{font-size:1.1rem;font-weight:700;font-family:var(--mono);color:var(--accent)}
+        .admin-body{padding:1.5rem}
+        .admin-empty{text-align:center;padding:2rem;color:var(--text-3);font-family:var(--mono)}
+        .admin-booking{background:var(--bg);border:1px solid var(--border);border-radius:10px;padding:1rem 1.25rem;margin-bottom:.75rem;position:relative}
+        .admin-booking .ab-service{font-weight:700;font-size:.95rem;color:var(--accent);margin-bottom:4px}
+        .admin-booking .ab-client{font-size:.85rem;color:var(--text-2)}
+        .admin-booking .ab-details{font-size:.78rem;color:var(--text-3);margin-top:4px;font-family:var(--mono)}
+        .admin-booking .ab-date-time{font-size:.8rem;color:var(--cyan);margin-top:2px}
+        .admin-booking .ab-close{position:absolute;top:8px;right:12px;background:none;border:none;color:var(--text-3);font-size:1.2rem;cursor:pointer;transition:color .2s}
+        .admin-booking .ab-close:hover{color:#ef4444}
+        .admin-actions{display:flex;gap:.75rem;margin-top:1rem}
+        .admin-actions button{padding:8px 16px;border-radius:8px;border:none;font-weight:600;font-size:.82rem;cursor:pointer;font-family:var(--sans);transition:all .3s}
+        .btn-clear-all{background:#ef4444;color:#fff}
+        .btn-clear-all:hover{opacity:.8}
+
+        /* Responsive */
+        @media (max-width: 1024px) {
+            .hero { grid-template-columns: 1fr; text-align: center; }
+            .hero-right { order: -1; }
+            .hero-cards { width: 100%; max-width: 400px; margin: 0 auto; }
+            .hero-desc { margin: 0 auto 2rem; }
+            .hero-actions { justify-content: center; }
+            .hero-stats { justify-content: center; }
+            .about-grid { grid-template-columns: 1fr; }
+            .skills-grid { grid-template-columns: 1fr 1fr; }
+            .expertise-grid { grid-template-columns: 1fr 1fr; }
+            .edu-grid { grid-template-columns: 1fr; }
+        }
+        @media (max-width: 768px) {
+            .nav-links { display: none; }
+            .nav-links.open { display: flex; flex-direction: column; position: absolute; top: 64px; left: 0; right: 0; background: rgba(10,10,15,0.95); backdrop-filter: blur(20px); padding: 1.5rem 2rem; border-bottom: 1px solid var(--border); gap: 1rem; }
+            .nav-toggle { display: block; }
+            .nav-cta { display: none; }
+            .theme-toggle { width: 36px; height: 36px; font-size: 1rem; }
+            .avail-banner { font-size: .75rem; padding: 6px .75rem; }
+            .section { padding: 3.5rem 1.25rem; }
+            .section-title { font-size: 2rem; }
+            .hero-stats { gap: 1.5rem; flex-wrap: wrap; }
+            .hero-stat .num { font-size: 1.4rem; }
+            .skills-grid { grid-template-columns: 1fr; }
+            .expertise-grid { grid-template-columns: 1fr; }
+            .projects-grid { grid-template-columns: 1fr; }
+            .achieve-grid { grid-template-columns: 1fr; }
+            .contact-grid { flex-direction: column; align-items: center; }
+            .testi-card { flex: 0 0 300px; }
+            .dsa-categories { grid-template-columns: 1fr; }
+            .dsa-summary { gap: 1rem; }
+            .dsa-stat { min-width: 100px; padding: 1rem 1.25rem; }
+            .rating-panel { width: 300px; }
+            .rating-tab { padding: 10px 8px; font-size: .75rem; }
+            .modal { max-width: 100%; margin: .5rem; }
+            .date-grid { grid-template-columns: repeat(3, 1fr); }
+        }
+    </style>
 </head>
 <body>
-    <!-- Cursor glow effect -->
-    <div class="cursor-glow" id="cursorGlow"></div>
+<div class="avail-banner">
+    <span class="avail-dot"></span>Available for Speaking &amp; Coaching<a href="#sessions">Book Now &rarr;</a> &nbsp;|&nbsp; <a href="#services">Hire Me for Events &rarr;</a>
+</div>
+<div class="scroll-progress" id="scrollProgress"></div>
+<div class="dot-grid"></div>
+<div class="mouse-glow" id="mouseGlow"></div>
 
-    <!-- Navigation -->
-    <nav class="navbar">
-        <div class="container">
-            <a href="#" class="logo">A<span class="logo-dot">.</span>N</a>
-            <button class="nav-toggle" aria-label="Toggle navigation">
-                <span></span><span></span><span></span>
-            </button>
-            <ul class="nav-links">
-                <li><a href="#about">About</a></li>
-                <li><a href="#highlights">Highlights</a></li>
-                <li><a href="#experience">Experience</a></li>
-                <li><a href="#education">Education</a></li>
-                <li><a href="#skills">Skills</a></li>
-                <li><a href="#video">Watch</a></li>
-                <li><a href="#contact" class="nav-cta">Let's Connect</a></li>
+<!-- Nav -->
+<nav class="nav" id="nav">
+    <div class="nav-inner">
+        <a href="#" class="nav-logo"><span class="dot"></span> Aafreen Naaz</a>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Career</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#courses">Courses</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#sessions">Sessions</a></li>
+            <li><a href="#reviews">Reviews</a></li>
+            <li><a href="#services">Hire Me</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="nav-right">
+            <button class="theme-toggle" id="themeToggle" aria-label="Toggle theme" style="width:auto;border-radius:8px;padding:6px 14px;font-size:.8rem;font-weight:600;">Night</button>
+            <button class="nav-toggle" id="navToggle" aria-label="Toggle menu">&#9776;</button>
+        </div>
+    </div>
+</nav>
+
+<!-- Hero -->
+<section class="hero section" id="hero">
+    <div class="hero-bg"><div class="orb o1"></div><div class="orb o2"></div><div class="orb o3"></div></div>
+    <div class="hero-left">
+        <div class="hero-badge"><span class="pulse"></span> Available for Speaking &amp; Coaching</div>
+        <h1><img src="profile.jpg" alt="Aafreen Naaz" class="hero-inline-pic">Hi, I'm <span class="grad">Aafreen Naaz</span></h1>
+        <p class="hero-role typing-cursor" id="heroTyping" style="font-family:var(--mono);font-size:.9rem;color:var(--accent-l);margin-bottom:1rem;"></p>
+        <p class="hero-desc">
+            <strong>Public Speaker</strong> &amp; <strong>Toastmasters President</strong> — empowering individuals to find their voice and lead with confidence.
+            <strong>9+ years</strong> across finance, leadership &amp; communication training.
+        </p>
+        <div class="hero-actions">
+            <a href="#sessions" class="btn btn-p">Book a Session</a>
+            <a href="#experience" class="btn btn-o">View Experience</a>
+        </div>
+        <div class="hero-stats">
+            <div class="hero-stat"><div class="num count-up" data-target="9" data-suffix="+">0</div><div class="lbl">Years Experience</div></div>
+            <div class="hero-stat"><div class="num count-up" data-target="4" data-suffix="">0</div><div class="lbl">Organizations</div></div>
+            <div class="hero-stat"><div class="num count-up" data-target="500" data-suffix="+">0</div><div class="lbl">People Trained</div></div>
+            <div class="hero-stat"><div class="num">M.Com + LLB</div><div class="lbl">Dual Degree</div></div>
+        </div>
+    </div>
+    <div class="hero-right">
+        <div class="hero-cards">
+            <a href="#services" class="hero-action-card card-hire">
+                <div class="card-icon">🎤</div>
+                <div>
+                    <div class="card-title">Hire Me</div>
+                    <div class="card-desc">Speaking &middot; Training &middot; Workshops</div>
+                </div>
+                <span class="card-arrow">&rarr;</span>
+            </a>
+            <a href="#courses" class="hero-action-card card-comm">
+                <div class="card-icon">🗣️</div>
+                <div>
+                    <div class="card-title">Communication Skills</div>
+                    <div class="card-desc">Master effective communication &middot; 20+ topics</div>
+                </div>
+                <span class="card-arrow">&rarr;</span>
+            </a>
+            <a href="#courses" class="hero-action-card card-pres">
+                <div class="card-icon">🎯</div>
+                <div>
+                    <div class="card-title">Presentation Mastery</div>
+                    <div class="card-desc">Art of delivering impactful presentations</div>
+                </div>
+                <span class="card-arrow">&rarr;</span>
+            </a>
+            <a href="#courses" class="hero-action-card card-lead">
+                <div class="card-icon">👑</div>
+                <div>
+                    <div class="card-title">Leadership Development</div>
+                    <div class="card-desc">Lead with confidence &middot; Inspire teams</div>
+                </div>
+                <span class="card-arrow">&rarr;</span>
+            </a>
+        </div>
+    </div>
+</section>
+
+<!-- Organizations Marquee -->
+<div class="marquee-wrap">
+    <div class="marquee-label">Organizations &amp; Platforms</div>
+    <div class="marquee-track">
+        <div class="marquee-group">
+            <div class="co-chip"><span class="icon">🏆</span><span class="name">Toastmasters International</span><span class="badge badge-join">President</span></div>
+            <div class="co-chip"><span class="icon">🟢</span><span class="name">Cargill</span><span class="badge badge-ok">Current</span></div>
+            <div class="co-chip"><span class="icon">🔷</span><span class="name">Infosys BPM</span><span class="badge badge-ok">Worked</span></div>
+            <div class="co-chip"><span class="icon">🟣</span><span class="name">Genpact</span><span class="badge badge-ok">Worked</span></div>
+            <div class="co-chip"><span class="icon">🎤</span><span class="name">SpeakUptoStandOut</span><span class="badge badge-founded">Founded</span></div>
+        </div>
+        <div class="marquee-group">
+            <div class="co-chip"><span class="icon">🏆</span><span class="name">Toastmasters International</span><span class="badge badge-join">President</span></div>
+            <div class="co-chip"><span class="icon">🟢</span><span class="name">Cargill</span><span class="badge badge-ok">Current</span></div>
+            <div class="co-chip"><span class="icon">🔷</span><span class="name">Infosys BPM</span><span class="badge badge-ok">Worked</span></div>
+            <div class="co-chip"><span class="icon">🟣</span><span class="name">Genpact</span><span class="badge badge-ok">Worked</span></div>
+            <div class="co-chip"><span class="icon">🎤</span><span class="name">SpeakUptoStandOut</span><span class="badge badge-founded">Founded</span></div>
+        </div>
+    </div>
+</div>
+
+<!-- About -->
+<section class="section" id="about">
+    <div class="reveal">
+        <span class="section-tag">About Me</span>
+        <h2 class="section-title">Empowering Voices, Building Leaders</h2>
+    </div>
+    <div class="about-grid reveal">
+        <div class="about-text">
+            <p>I'm <strong>Aafreen Naaz</strong>, the <strong>President of Toastmasters International</strong> and L&amp;D Trainer through my initiative <strong>@SpeakUptoStandOut</strong>, based in Bengaluru, India.</p>
+            <br>
+            <p>With over <strong>9 years of experience</strong> across top organizations like <strong>Cargill</strong>, <strong>Infosys BPM</strong>, and <strong>Genpact</strong>, I specialize in finance (P2P, O2C, R2R) using SAP ERP, while also dedicating myself to leadership and communication development.</p>
+            <br>
+            <p>I help individuals develop <strong>powerful communication skills</strong>, master <strong>the art of presentation</strong>, and build <strong>leadership capabilities</strong>. My sessions are practical, engaging, and designed to help you find your voice.</p>
+            <br>
+            <p>I hold an <strong>M.Com in Accounting &amp; Finance</strong> and a <strong>Bachelor of Laws (LLB)</strong>, bringing a unique cross-disciplinary perspective.</p>
+            <br>
+            <p>Let's work together to unlock your full potential as a speaker and leader.</p>
+        </div>
+        <div class="about-photo">
+            <img src="profile.jpg" alt="Aafreen Naaz" loading="lazy">
+        </div>
+    </div>
+</section>
+
+<!-- Experience -->
+<section class="section" id="experience">
+    <div class="reveal">
+        <span class="section-tag">Career</span>
+        <h2 class="section-title">Work Experience</h2>
+    </div>
+    <div class="exp-list reveal">
+        <div class="exp-card">
+            <div class="exp-logo">🏆</div>
+            <div>
+                <div class="exp-header">
+                    <span class="exp-company">Toastmasters International</span>
+                    <span class="exp-role">President &amp; VP Education</span>
+                </div>
+                <div class="exp-period">Full-time &middot; 2024 &ndash; Present &middot; 2 yrs 1 mo</div>
+                <ul class="exp-desc">
+                    <li>Leading communication &amp; leadership development programs</li>
+                    <li>Organizing weekly meetings, mentoring new members</li>
+                    <li>Driving club goals &amp; membership growth</li>
+                </ul>
+                <div class="exp-tags">
+                    <span class="tag">Leadership</span><span class="tag">Public Speaking</span><span class="tag">People Management</span><span class="tag">Meeting Scheduling</span>
+                </div>
+            </div>
+        </div>
+        <div class="exp-card">
+            <div class="exp-logo">🟢</div>
+            <div>
+                <div class="exp-header">
+                    <span class="exp-company">Cargill</span>
+                    <span class="exp-role">Senior Associate</span>
+                </div>
+                <div class="exp-period">Full-time &middot; Jan 2022 &ndash; Present &middot; 4 yrs 4 mos &middot; Bengaluru, India</div>
+                <ul class="exp-desc">
+                    <li>Managing P2P and O2C finance processes</li>
+                    <li>Working with SAP ERP for financial operations</li>
+                </ul>
+                <div class="exp-tags">
+                    <span class="tag">SAP ERP</span><span class="tag">Finance</span><span class="tag">P2P</span><span class="tag">O2C</span>
+                </div>
+            </div>
+        </div>
+        <div class="exp-card">
+            <div class="exp-logo">🔷</div>
+            <div>
+                <div class="exp-header">
+                    <span class="exp-company">Infosys BPM</span>
+                    <span class="exp-role">Finance Analyst</span>
+                </div>
+                <div class="exp-period">Full-time &middot; Sep 2021 &ndash; Dec 2021 &middot; 4 mos &middot; Pune, India &middot; Hybrid</div>
+                <ul class="exp-desc">
+                    <li>SAP ERP operations &amp; ACH Payments processing</li>
+                    <li>Record-to-Report (R2R) cycle management</li>
+                </ul>
+                <div class="exp-tags">
+                    <span class="tag">SAP ERP</span><span class="tag">ACH Payments</span><span class="tag">Finance</span><span class="tag">R2R</span>
+                </div>
+            </div>
+        </div>
+        <div class="exp-card">
+            <div class="exp-logo">🟣</div>
+            <div>
+                <div class="exp-header">
+                    <span class="exp-company">Genpact</span>
+                    <span class="exp-role">Management Trainee</span>
+                </div>
+                <div class="exp-period">Full-time &middot; Oct 2016 &ndash; Aug 2021 &middot; 4 yrs 11 mos &middot; Kolkata, India</div>
+                <ul class="exp-desc">
+                    <li>Finance &amp; accounting operations</li>
+                    <li>SAP ERP system management</li>
+                    <li>Transitioned to senior roles over nearly 5 years</li>
+                </ul>
+                <div class="exp-tags">
+                    <span class="tag">SAP ERP</span><span class="tag">Finance</span><span class="tag">Accounting</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Courses Tracker -->
+<section class="section" id="courses">
+    <div class="reveal" style="text-align:center;">
+        <span class="section-tag">Courses</span>
+        <h2 class="section-title">Communication &amp; Leadership</h2>
+        <p class="section-sub" style="margin:0 auto;">Topics I teach &mdash; building confident communicators and strong leaders.</p>
+    </div>
+    <div class="dsa-summary reveal" id="dsaSummary"></div>
+    <div class="dsa-categories reveal" id="dsaCategories"></div>
+</section>
+
+<!-- Skills -->
+<section class="section" id="skills">
+    <div class="reveal">
+        <span class="section-tag">Expertise</span>
+        <h2 class="section-title">Skills &amp; Expertise</h2>
+    </div>
+    <div class="skills-grid reveal reveal-stagger">
+        <div class="skill-card">
+            <div class="skill-icon">🎤</div>
+            <div class="skill-name">Public Speaking</div>
+            <div class="skill-desc">Inspiring audiences across platforms, from Toastmasters stages to corporate events.</div>
+            <div class="skill-tags"><span>Speech Delivery</span><span>Storytelling</span><span>Audience Engagement</span><span>Impromptu Speaking</span></div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">👑</div>
+            <div class="skill-name">Leadership &amp; Management</div>
+            <div class="skill-desc">Leading teams, mentoring individuals, and driving organizational goals.</div>
+            <div class="skill-tags"><span>People Management</span><span>Team Building</span><span>Strategic Planning</span><span>Mentoring</span></div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">📊</div>
+            <div class="skill-name">Finance &amp; ERP</div>
+            <div class="skill-desc">Deep expertise in financial processes, SAP ERP systems, and accounting operations.</div>
+            <div class="skill-tags"><span>SAP ERP</span><span>P2P</span><span>O2C</span><span>R2R</span><span>ACH Payments</span></div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">🎯</div>
+            <div class="skill-name">Presentation Design</div>
+            <div class="skill-desc">Crafting compelling narratives and visually impactful presentations.</div>
+            <div class="skill-tags"><span>Visual Design</span><span>Persuasion</span><span>Data Storytelling</span><span>Structure</span></div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">📚</div>
+            <div class="skill-name">L&amp;D Training</div>
+            <div class="skill-desc">Designing and delivering learning programs that create lasting impact.</div>
+            <div class="skill-tags"><span>Workshop Design</span><span>Facilitation</span><span>Coaching</span><span>Curriculum</span></div>
+        </div>
+        <div class="skill-card">
+            <div class="skill-icon">⚖️</div>
+            <div class="skill-name">Legal Knowledge</div>
+            <div class="skill-desc">Bachelor of Laws providing strong analytical and compliance skills.</div>
+            <div class="skill-tags"><span>Corporate Law</span><span>Compliance</span><span>Legal Research</span><span>Ethics</span></div>
+        </div>
+    </div>
+</section>
+
+<!-- Education -->
+<section class="section" id="education">
+    <div class="reveal">
+        <span class="section-tag">Education</span>
+        <h2 class="section-title">Academic Background</h2>
+    </div>
+    <div class="edu-grid reveal">
+        <div class="edu-list">
+            <div class="edu-card">
+                <div class="edu-school">The Bhawanipur Education Society College (BESC)</div>
+                <div class="edu-degree">M.Com &mdash; Accounting and Finance</div>
+                <div class="edu-detail">2015 &ndash; 2017</div>
+            </div>
+            <div class="edu-card">
+                <div class="edu-school">Arunachal University of Studies (AUS)</div>
+                <div class="edu-degree">Bachelor of Laws &mdash; LLB, Law</div>
+                <div class="edu-detail"></div>
+            </div>
+        </div>
+        <div class="edu-list">
+            <div class="edu-card">
+                <div class="edu-school">Toastmasters International</div>
+                <div class="edu-degree">Competent Communicator &amp; Leadership Pathways</div>
+                <div class="edu-detail">Ongoing Professional Development</div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Sessions -->
+<section class="section" id="sessions">
+    <div class="reveal" style="text-align:center;">
+        <span class="section-tag">Coaching</span>
+        <h2 class="section-title">Book a Session</h2>
+        <p class="section-sub" style="margin:0 auto;">Practical, focused sessions to help you become a confident speaker and effective leader.</p>
+    </div>
+    <div class="glow-divider" style="margin-bottom:2rem;"></div>
+    <div class="sessions-grid reveal reveal-stagger">
+        <div class="session-card popular">
+            <div class="session-icon">🎤</div>
+            <div class="session-name">Speaking Coaching (VC)</div>
+            <div class="session-type">1:1 Speaking Session &middot; 60 mins</div>
+            <div class="session-rating">&#9733;&#9733;&#9733;&#9733;&#9733; 5.0</div>
+            <div class="session-price">
+                <span class="current">&#8377;499</span>
+                <span class="original">&#8377;1,499</span>
+            </div>
+            <a href="#" onclick="openBooking('speaking','Speaking Coaching (VC)',499,60);return false;" class="session-btn">Book Now &rarr;</a>
+        </div>
+        <div class="session-card popular">
+            <div class="session-icon">💼</div>
+            <div class="session-name">Career Guidance (VC)</div>
+            <div class="session-type">1:1 Career Strategy &middot; 60 mins</div>
+            <div class="session-rating">&#9733;&#9733;&#9733;&#9733;&#9733; 5.0</div>
+            <div class="session-price">
+                <span class="current">&#8377;399</span>
+                <span class="original">&#8377;999</span>
+            </div>
+            <a href="#" onclick="openBooking('career','Career Guidance (VC)',399,60);return false;" class="session-btn">Book Now &rarr;</a>
+        </div>
+        <div class="session-card">
+            <div class="session-icon">🎯</div>
+            <div class="session-name">Presentation Review (VC)</div>
+            <div class="session-type">Presentation Feedback &middot; 60 mins</div>
+            <div class="session-rating">&#9733;&#9733;&#9733;&#9733;&#9733; 5.0</div>
+            <div class="session-price">
+                <span class="current">&#8377;399</span>
+                <span class="original">&#8377;799</span>
+            </div>
+            <a href="#" onclick="openBooking('presentation','Presentation Review (VC)',399,60);return false;" class="session-btn">Book Now &rarr;</a>
+        </div>
+        <div class="session-card">
+            <div class="session-icon">📞</div>
+            <div class="session-name">Quick Call</div>
+            <div class="session-type">Phone Call &middot; Queries &amp; Clarification &middot; 20 mins</div>
+            <div class="session-price">
+                <span class="current">&#8377;99</span>
+                <span class="original">&#8377;299</span>
+            </div>
+            <a href="#" onclick="openBooking('call','Quick Call',99,20);return false;" class="session-btn">Book Now &rarr;</a>
+        </div>
+        <div class="session-card">
+            <div class="session-icon">💬</div>
+            <div class="session-name">Quick Chat</div>
+            <div class="session-type">Quick 1:1 Chat &middot; 15 mins</div>
+            <div class="session-price">
+                <span class="current">&#8377;39</span>
+                <span class="original">&#8377;99</span>
+            </div>
+            <a href="#" onclick="openBooking('chat','Quick Chat',39,15);return false;" class="session-btn">Book Now &rarr;</a>
+        </div>
+        <div class="session-card popular">
+            <div class="session-icon">👑</div>
+            <div class="session-name">Leadership Coaching (VC)</div>
+            <div class="session-type">Leadership &amp; Team Skills &middot; 60 mins</div>
+            <div class="session-rating">&#9733;&#9733;&#9733;&#9733;&#9733; 5.0</div>
+            <div class="session-price">
+                <span class="current">&#8377;699</span>
+                <span class="original">&#8377;1,999</span>
+            </div>
+            <a href="#" onclick="openBooking('leadership','Leadership Coaching (VC)',699,60);return false;" class="session-btn">Book Now &rarr;</a>
+        </div>
+    </div>
+</section>
+
+<!-- Services / Hire Me -->
+<section class="section" id="services">
+    <div class="reveal" style="text-align:center;">
+        <span class="section-tag">Hire Me</span>
+        <h2 class="section-title">Speaking &amp; Training</h2>
+        <p class="section-sub" style="margin:0 auto;">Need a keynote speaker for your event or a trainer for your team? Let's make it happen.</p>
+    </div>
+    <div class="services-grid reveal">
+        <div class="service-card">
+            <span class="service-badge service-badge-web">Speaking</span>
+            <div class="service-title">Keynote Speaking</div>
+            <div class="service-desc">Engage your audience with powerful keynote speeches tailored for corporate events, conferences, and seminars.</div>
+            <ul class="service-features">
+                <li>Corporate Events &amp; Conferences</li>
+                <li>Motivational &amp; Inspirational Talks</li>
+                <li>Panel Discussions &amp; Fireside Chats</li>
+                <li>College &amp; University Seminars</li>
+                <li>Women Empowerment Events</li>
+                <li>Custom Topics on Request</li>
             </ul>
+            <div class="service-price-row">
+                <span class="price">&#8377;2,999</span>
+                <span class="price-note">starting price</span>
+            </div>
+            <a href="#" onclick="openBooking('keynote','Keynote Speaking Engagement',2999,0);return false;" class="session-btn" style="display:inline-flex;">Get Started &rarr;</a>
         </div>
-    </nav>
+        <div class="service-card premium">
+            <span class="service-badge service-badge-app">Training</span>
+            <div class="service-title">Corporate Training</div>
+            <div class="service-desc">Comprehensive L&amp;D training programs designed to develop communication, leadership, and team skills.</div>
+            <ul class="service-features">
+                <li>Communication Skills Workshop</li>
+                <li>Presentation Mastery Training</li>
+                <li>Leadership Development Program</li>
+                <li>Team Building Activities</li>
+                <li>Public Speaking Bootcamp</li>
+                <li>Train-the-Trainer Sessions</li>
+                <li>Custom Curriculum Design</li>
+            </ul>
+            <div class="service-price-row">
+                <span class="price">&#8377;4,999</span>
+                <span class="price-note">starting price</span>
+            </div>
+            <a href="#" onclick="openBooking('training','Corporate Training Program',4999,0);return false;" class="session-btn" style="display:inline-flex;">Get Started &rarr;</a>
+        </div>
+    </div>
+</section>
 
-    <!-- Hero Section -->
-    <header class="hero" id="about">
-        <canvas class="particles-canvas" id="particlesCanvas"></canvas>
-        <div class="hero-bg-effects">
-            <div class="orb orb-1"></div>
-            <div class="orb orb-2"></div>
-            <div class="orb orb-3"></div>
+<!-- Testimonials -->
+<section class="section" id="reviews">
+    <div class="testi-header reveal">
+        <span class="section-tag">Reviews</span>
+        <h2 class="section-title">What People Say</h2>
+        <div class="testi-badge">
+            <span class="stars">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+            <span class="info"><strong>5.00 / 5</strong> &middot; 6 responses &middot; 100% rated 5 stars</span>
         </div>
-        <div class="container">
-            <div class="hero-content">
-                <div class="hero-text">
-                    <p class="hero-greeting" data-reveal>
-                        <span class="greeting-line"></span> Hello, I'm
-                    </p>
-                    <h1 data-reveal>Aafreen <span class="highlight">Naaz</span></h1>
-                    <div class="typewriter-wrap" data-reveal>
-                        <span class="typewriter-prefix">I'm a </span>
-                        <span class="typewriter" id="typewriter"></span>
-                        <span class="typewriter-cursor">|</span>
-                    </div>
-                    <p class="hero-subtitle" data-reveal>
-                        M.Com | LLB &#9878; | Public Speaker &#127908; | L&amp;D Trainer @SpeakUptoStandOut | Toastmasters
-                    </p>
-                    <p class="hero-location" data-reveal>
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
-                        Bengaluru, Karnataka, India
-                    </p>
-                    <div class="hero-cta" data-reveal>
-                        <a href="#contact" class="btn btn-primary btn-glow"><span>Get in Touch</span></a>
-                        <a href="#experience" class="btn btn-outline"><span>View Experience</span></a>
-                    </div>
-                    <div class="hero-social" data-reveal>
-                        <a href="https://www.linkedin.com/in/aafreen-naaz-98381a205" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                        </a>
-                        <a href="https://youtube.com/@mess_aholic" target="_blank" rel="noopener noreferrer" aria-label="YouTube">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                        </a>
-                        <a href="https://www.instagram.com/speakuptostandout" target="_blank" rel="noopener noreferrer" aria-label="Instagram">
-                            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                        </a>
-                    </div>
+    </div>
+    <div class="testi-wrapper">
+        <div class="testi-track">
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">Aafreen's session on communication skills completely transformed how I approach presentations. Her energy and practical tips are unmatched. Highly recommend!</p>
+                <div class="testi-author"><div class="testi-avatar">P</div><div><div class="testi-name">Priya</div><div class="testi-role">Speaking Coaching Session</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">The leadership coaching was incredibly insightful. Aafreen helped me understand my leadership style and gave me actionable strategies to improve.</p>
+                <div class="testi-author"><div class="testi-avatar">R</div><div><div class="testi-name">Rahul</div><div class="testi-role">Leadership Coaching Session</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">Attending Aafreen's Toastmasters sessions has been a game-changer. Her guidance on structuring speeches and using vocal variety is exceptional.</p>
+                <div class="testi-author"><div class="testi-avatar">S</div><div><div class="testi-name">Sneha</div><div class="testi-role">Toastmasters Member</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">Aafreen's workshop on overcoming stage fright was exactly what I needed. She creates a safe, supportive space to practice and grow.</p>
+                <div class="testi-author"><div class="testi-avatar">A</div><div><div class="testi-name">Amit</div><div class="testi-role">Workshop Participant</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">The career guidance session with Aafreen was eye-opening. She gave me clarity on my career path and how communication skills can accelerate growth.</p>
+                <div class="testi-author"><div class="testi-avatar">M</div><div><div class="testi-name">Meera</div><div class="testi-role">Career Guidance Session</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">Aafreen's SpeakUptoStandOut initiative is brilliant. The way she empowers individuals to find their voice is truly inspiring.</p>
+                <div class="testi-author"><div class="testi-avatar">K</div><div><div class="testi-name">Kavya</div><div class="testi-role">SpeakUptoStandOut Member</div></div></div>
+            </div>
+            <!-- Duplicates for loop -->
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">Aafreen's session on communication skills completely transformed how I approach presentations. Her energy and practical tips are unmatched. Highly recommend!</p>
+                <div class="testi-author"><div class="testi-avatar">P</div><div><div class="testi-name">Priya</div><div class="testi-role">Speaking Coaching Session</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">The leadership coaching was incredibly insightful. Aafreen helped me understand my leadership style and gave me actionable strategies to improve.</p>
+                <div class="testi-author"><div class="testi-avatar">R</div><div><div class="testi-name">Rahul</div><div class="testi-role">Leadership Coaching Session</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">Attending Aafreen's Toastmasters sessions has been a game-changer. Her guidance on structuring speeches and using vocal variety is exceptional.</p>
+                <div class="testi-author"><div class="testi-avatar">S</div><div><div class="testi-name">Sneha</div><div class="testi-role">Toastmasters Member</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">Aafreen's workshop on overcoming stage fright was exactly what I needed. She creates a safe, supportive space to practice and grow.</p>
+                <div class="testi-author"><div class="testi-avatar">A</div><div><div class="testi-name">Amit</div><div class="testi-role">Workshop Participant</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">The career guidance session with Aafreen was eye-opening. She gave me clarity on my career path and how communication skills can accelerate growth.</p>
+                <div class="testi-author"><div class="testi-avatar">M</div><div><div class="testi-name">Meera</div><div class="testi-role">Career Guidance Session</div></div></div>
+            </div>
+            <div class="testi-card">
+                <div class="testi-stars">&#9733;&#9733;&#9733;&#9733;&#9733;</div>
+                <p class="testi-text">Aafreen's SpeakUptoStandOut initiative is brilliant. The way she empowers individuals to find their voice is truly inspiring.</p>
+                <div class="testi-author"><div class="testi-avatar">K</div><div><div class="testi-name">Kavya</div><div class="testi-role">SpeakUptoStandOut Member</div></div></div>
+            </div>
+        </div>
+    </div>
+    <div class="dynamic-reviews" id="dynamicReviews"></div>
+</section>
+
+<!-- Videos -->
+<section class="section video-section" id="videos">
+    <div class="reveal">
+        <span class="section-tag">YouTube</span>
+        <h2 class="section-title">Watch Me Speak</h2>
+        <p class="section-sub" style="margin:0 auto;">Speaking tips, leadership insights &amp; inspiration on my YouTube channel</p>
+    </div>
+    <div class="video-main reveal">
+        <div class="video-resp">
+            <iframe src="https://www.youtube.com/embed/NiziXZAPJxM?si=sC2g8fiL2GMLrbio" title="YouTube video player" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        </div>
+    </div>
+</section>
+
+<!-- Achievements -->
+<section class="section" id="achievements">
+    <div class="reveal">
+        <span class="section-tag">Achievements</span>
+        <h2 class="section-title">Key Milestones</h2>
+    </div>
+    <div class="achieve-grid reveal reveal-stagger">
+        <div class="achieve-card"><div class="achieve-icon">🏆</div><div><div class="achieve-title">Toastmasters President</div><div class="achieve-desc">Leading communication &amp; leadership programs at Toastmasters International</div></div></div>
+        <div class="achieve-card"><div class="achieve-icon">🎤</div><div><div class="achieve-title">SpeakUptoStandOut</div><div class="achieve-desc">Founded L&amp;D initiative empowering individuals to find their voice</div></div></div>
+        <div class="achieve-card"><div class="achieve-icon">🟢</div><div><div class="achieve-title">Cargill Senior Associate</div><div class="achieve-desc">Finance operations at one of the largest private companies globally</div></div></div>
+        <div class="achieve-card"><div class="achieve-icon">📊</div><div><div class="achieve-title">9+ Years in Finance</div><div class="achieve-desc">Deep expertise across P2P, O2C, R2R with SAP ERP</div></div></div>
+        <div class="achieve-card"><div class="achieve-icon">⚖️</div><div><div class="achieve-title">Dual Degree Holder</div><div class="achieve-desc">M.Com in Accounting &amp; Finance + Bachelor of Laws (LLB)</div></div></div>
+        <div class="achieve-card"><div class="achieve-icon">🌟</div><div><div class="achieve-title">500+ People Trained</div><div class="achieve-desc">Trained and mentored hundreds in communication and leadership</div></div></div>
+    </div>
+</section>
+
+<!-- Expertise -->
+<section class="section" id="expertise">
+    <div class="reveal">
+        <span class="section-tag">Domains</span>
+        <h2 class="section-title">Domain Knowledge</h2>
+    </div>
+    <div class="expertise-grid reveal">
+        <div class="expertise-card">
+            <div class="expertise-icon">🎤</div>
+            <div class="expertise-name">Communication</div>
+            <ul class="expertise-items"><li>Public Speaking</li><li>Presentation Skills</li><li>Storytelling</li><li>Vocal Variety</li><li>Active Listening</li></ul>
+        </div>
+        <div class="expertise-card">
+            <div class="expertise-icon">👑</div>
+            <div class="expertise-name">Leadership</div>
+            <ul class="expertise-items"><li>Team Management</li><li>Conflict Resolution</li><li>Strategic Planning</li><li>Mentoring</li><li>Decision Making</li></ul>
+        </div>
+        <div class="expertise-card">
+            <div class="expertise-icon">📊</div>
+            <div class="expertise-name">Finance &amp; Business</div>
+            <ul class="expertise-items"><li>SAP ERP</li><li>P2P / O2C / R2R</li><li>Financial Analysis</li><li>ACH Payments</li><li>Accounting</li></ul>
+        </div>
+    </div>
+</section>
+
+<!-- Philosophy -->
+<section class="section" id="philosophy">
+    <div class="reveal">
+        <span class="section-tag">Philosophy</span>
+        <h2 class="section-title">How I Think</h2>
+    </div>
+    <div class="philosophy reveal">
+        <p class="philosophy-quote">"Speak up, stand out, and let your voice be the change the world needs."</p>
+        <div class="philosophy-grid">
+            <div><div class="principle-icon">🎯</div><div class="principle-title">Voice First</div><div class="principle-desc">Everyone has a voice worth hearing</div></div>
+            <div><div class="principle-icon">🔥</div><div class="principle-title">Lead by Example</div><div class="principle-desc">Actions speak louder than words</div></div>
+            <div><div class="principle-icon">💡</div><div class="principle-title">Continuous Growth</div><div class="principle-desc">Every day is an opportunity to improve</div></div>
+            <div><div class="principle-icon">🤝</div><div class="principle-title">Empower Others</div><div class="principle-desc">True leadership is creating more leaders</div></div>
+        </div>
+    </div>
+</section>
+
+<!-- Contact -->
+<section class="section contact-center" id="contact">
+    <div class="reveal">
+        <span class="section-tag">Connect</span>
+        <h2 class="section-title">Get In Touch</h2>
+    </div>
+    <div class="contact-grid reveal">
+        <a href="https://www.linkedin.com/in/aafreen-naaz-98381a205" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 0 1-2.063-2.065 2.064 2.064 0 1 1 2.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
+            <div><div class="c-label">LinkedIn</div><div class="c-value">aafreen-naaz</div></div>
+        </a>
+        <a href="https://youtube.com/@mess_aholic" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
+            <div><div class="c-label">YouTube</div><div class="c-value">@mess_aholic</div></div>
+        </a>
+        <a href="https://www.instagram.com/speakuptostandout" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <span class="c-icon">📷</span>
+            <div><div class="c-label">Instagram</div><div class="c-value">@speakuptostandout</div></div>
+        </a>
+        <a href="https://github.com/messaholic" class="contact-card" target="_blank" rel="noopener noreferrer">
+            <svg viewBox="0 0 24 24"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0 1 12 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
+            <div><div class="c-label">GitHub</div><div class="c-value">messaholic</div></div>
+        </a>
+    </div>
+</section>
+
+<footer>
+    <p>&copy; 2026 <a href="https://github.com/messaholic" target="_blank" rel="noopener noreferrer">Aafreen Naaz</a>. Built with passion for communication &amp; leadership.</p>
+</footer>
+
+<!-- Floating Rating Widget -->
+<div class="rating-tab" id="ratingTab" onclick="toggleRating()">&#9733; Rate</div>
+<div class="rating-panel" id="ratingPanel">
+    <button class="rating-panel-close" onclick="toggleRating()">&times;</button>
+    <h4>Rate This Website</h4>
+    <p class="panel-sub">Your feedback helps me improve!</p>
+    <div class="rating-avg" id="ratingAvg"></div>
+    <div id="ratingForm">
+        <div class="star-row" id="starRow">
+            <span class="star" data-v="1">&#9733;</span>
+            <span class="star" data-v="2">&#9733;</span>
+            <span class="star" data-v="3">&#9733;</span>
+            <span class="star" data-v="4">&#9733;</span>
+            <span class="star" data-v="5">&#9733;</span>
+        </div>
+        <textarea class="rating-comment" id="ratingComment" placeholder="Share your thoughts... (optional)" maxlength="200"></textarea>
+        <button class="rating-submit" id="ratingSubmit" disabled onclick="submitRating()">Submit Rating</button>
+    </div>
+    <div id="ratingThanks" style="display:none;">
+        <div class="rating-thanks">
+            <div class="check">&#9989;</div>
+            <p style="font-weight:600;">Thank you for your feedback!</p>
+            <p style="color:var(--text-2);font-size:.85rem;margin-top:.5rem;">Your rating has been recorded.</p>
+        </div>
+    </div>
+</div>
+
+<!-- Booking Tracker Badge -->
+<div class="booking-badge" id="bookingBadge" onclick="toggleAdmin()" title="Active Bookings (Ctrl+Shift+B)">
+    <div class="badge-count" id="badgeCount">0</div>
+    <div class="badge-label">Active<br>Bookings</div>
+</div>
+
+<!-- Admin Panel -->
+<div class="admin-overlay" id="adminOverlay">
+    <div class="admin-panel">
+        <div class="admin-header">
+            <h3>&gt; active_bookings</h3>
+            <button class="modal-close" onclick="toggleAdmin()">&times;</button>
+        </div>
+        <div class="admin-body" id="adminBody"></div>
+    </div>
+</div>
+
+<!-- Booking Modal -->
+<div class="modal-overlay" id="bookingModal">
+    <div class="modal">
+        <div class="modal-header">
+            <h3 id="modalTitle">Book a Session</h3>
+            <button class="modal-close" onclick="closeBooking()">&times;</button>
+        </div>
+        <div class="modal-body">
+            <div class="modal-step active" id="step1">
+                <div class="selected-session-tag" id="selectedTag"></div>
+                <div class="form-group">
+                    <label class="form-label">Select a Date</label>
+                    <div class="date-grid" id="dateGrid"></div>
                 </div>
-                <div class="hero-visual">
-                    <div class="hero-avatar">
-                        <div class="avatar-ring"></div>
-                        <div class="avatar-ring avatar-ring-2"></div>
-                        <img src="profile.jpg" alt="Aafreen Naaz" class="profile-photo">
-                    </div>
+                <button class="modal-btn modal-btn-primary" id="toStep2Btn" disabled onclick="goStep(2)">Select Time Slot &rarr;</button>
+            </div>
+            <div class="modal-step" id="step2">
+                <div class="selected-session-tag" id="selectedTag2"></div>
+                <div class="form-group">
+                    <label class="form-label">Select a Time Slot</label>
+                    <div class="time-grid" id="timeGrid"></div>
+                </div>
+                <button class="modal-btn modal-btn-back" onclick="goStep(1)">&larr; Back</button>
+                <button class="modal-btn modal-btn-primary" id="toStep3Btn" disabled onclick="goStep(3)">Enter Your Details &rarr;</button>
+            </div>
+            <div class="modal-step" id="step3">
+                <div class="selected-session-tag" id="selectedTag3"></div>
+                <div class="form-group">
+                    <label class="form-label">Your Name *</label>
+                    <input type="text" class="form-input" id="bookName" placeholder="Enter your full name" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Your Email *</label>
+                    <input type="email" class="form-input" id="bookEmail" placeholder="your@email.com" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Phone Number *</label>
+                    <input type="tel" class="form-input" id="bookPhone" placeholder="+91 XXXXX XXXXX" required>
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Message (optional)</label>
+                    <textarea class="form-input" id="bookMsg" rows="3" placeholder="What would you like to discuss?"></textarea>
+                </div>
+                <div class="booking-summary" id="bookingSummary"></div>
+                <button class="modal-btn modal-btn-back" onclick="goStep(2)">&larr; Back</button>
+                <button class="modal-btn modal-btn-primary" id="payBtn" onclick="initiatePayment()">&#128274; Pay Securely with Razorpay</button>
+            </div>
+            <div class="modal-step" id="step4">
+                <div style="text-align:center;">
+                    <div class="success-check">&#9989;</div>
+                    <h3 style="margin-bottom:.5rem;">Booking Confirmed!</h3>
+                    <p style="color:var(--text-2);margin-bottom:1rem;">A confirmation has been sent to <strong>yasir.grc08@gmail.com</strong>.</p>
+                    <div class="booking-summary" id="successSummary"></div>
+                    <button class="modal-btn modal-btn-primary" style="margin-top:1rem;" onclick="closeBooking()">Done</button>
                 </div>
             </div>
         </div>
-        <div class="scroll-indicator">
-            <span>Scroll</span>
-            <div class="scroll-line"></div>
-        </div>
-    </header>
+    </div>
+</div>
 
-    <!-- Stats Banner -->
-    <section class="stats-banner">
-        <div class="container">
-            <div class="stats-grid">
-                <div class="stat-item">
-                    <span class="stat-number" data-count="9">0</span><span class="stat-suffix">+</span>
-                    <span class="stat-label">Years Experience</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number" data-count="4">0</span>
-                    <span class="stat-label">Companies</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number" data-count="500">0</span><span class="stat-suffix">+</span>
-                    <span class="stat-label">Connections</span>
-                </div>
-                <div class="stat-divider"></div>
-                <div class="stat-item">
-                    <span class="stat-number" data-count="19">0</span>
-                    <span class="stat-label">Skills</span>
-                </div>
+<!-- Feedback Modal -->
+<div class="feedback-overlay" id="feedbackOverlay">
+    <div class="feedback-modal">
+        <button class="fb-close" onclick="closeFeedback()">&times;</button>
+        <h3>&#11088; How Was Your Session?</h3>
+        <p class="fb-sub">Your feedback helps others and improves my coaching.</p>
+        <div class="fb-session-tag" id="fbSessionTag"></div>
+        <div id="fbForm">
+            <div class="fb-star-row" id="fbStarRow">
+                <span class="fb-star" data-v="1">&#9733;</span>
+                <span class="fb-star" data-v="2">&#9733;</span>
+                <span class="fb-star" data-v="3">&#9733;</span>
+                <span class="fb-star" data-v="4">&#9733;</span>
+                <span class="fb-star" data-v="5">&#9733;</span>
+            </div>
+            <input type="text" class="fb-name-input" id="fbName" placeholder="Your name *" maxlength="50">
+            <textarea class="fb-textarea" id="fbComment" placeholder="Share your experience... *" maxlength="300"></textarea>
+            <button class="fb-submit" id="fbSubmit" disabled onclick="submitFeedback()">Submit Feedback</button>
+        </div>
+        <div id="fbThanks" style="display:none;">
+            <div style="padding:2rem 0;">
+                <div style="font-size:3rem;margin-bottom:.75rem;">&#127881;</div>
+                <h3>Thank You!</h3>
+                <p style="color:var(--text-2);margin-top:.5rem;">Your review is now live on the website.</p>
+                <button class="fb-submit" style="margin-top:1.5rem;" onclick="closeFeedback()">Close</button>
             </div>
         </div>
-    </section>
+    </div>
+</div>
 
-    <!-- About Section -->
-    <section class="section" id="about-detail">
-        <div class="container">
-            <div class="about-grid">
-                <div class="about-text" data-reveal>
-                    <h2 class="section-title">About <span class="highlight">Me</span></h2>
-                    <p class="about-lead">A finance professional with a passion for leadership, public speaking, and empowering others to find their voice.</p>
-                    <p>With over 9 years of experience across top organizations like <strong>Cargill</strong>, <strong>Infosys BPM</strong>, and <strong>Genpact</strong>, I specialize in P2P, O2C, and R2R processes using SAP ERP. Beyond finance, I am the <strong>President of Toastmasters International</strong> and a dedicated L&amp;D Trainer through my initiative <strong>@SpeakUptoStandOut</strong>.</p>
-                    <p>I hold an <strong>M.Com in Accounting &amp; Finance</strong> and a <strong>Bachelor of Laws (LLB)</strong>, giving me a unique cross-disciplinary perspective in the corporate world.</p>
-                </div>
-                <div class="about-badges" data-reveal>
-                    <div class="badge-card">
-                        <div class="badge-icon">&#127942;</div>
-                        <h4>Toastmasters President</h4>
-                        <p>Leading communication &amp; leadership goals</p>
-                    </div>
-                    <div class="badge-card">
-                        <div class="badge-icon">&#127908;</div>
-                        <h4>Public Speaker</h4>
-                        <p>Inspiring audiences across platforms</p>
-                    </div>
-                    <div class="badge-card">
-                        <div class="badge-icon">&#128218;</div>
-                        <h4>L&amp;D Trainer</h4>
-                        <p>@SpeakUptoStandOut initiative</p>
-                    </div>
-                    <div class="badge-card">
-                        <div class="badge-icon">&#9878;&#65039;</div>
-                        <h4>Law Graduate</h4>
-                        <p>LLB from Arunachal University</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
+<!-- Razorpay Checkout Script -->
+<script src="https://checkout.razorpay.com/v1/checkout.js"></script>
+<!-- EmailJS SDK -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+<script>
+    (function() { if (typeof emailjs !== 'undefined') { emailjs.init('97FdG6E2hT9AYtA_4'); } })();
+</script>
 
-    <!-- Highlights Section -->
-    <section class="section section-alt" id="highlights">
-        <div class="container">
-            <h2 class="section-title" data-reveal>Key <span class="highlight">Highlights</span></h2>
-            <div class="highlights-grid">
-                <div class="highlight-card" data-reveal>
-                    <div class="highlight-number">01</div>
-                    <h3>Finance Expertise</h3>
-                    <p>Deep expertise in Procure-to-Pay, Order-to-Cash, and Record-to-Report cycles across global organizations.</p>
-                </div>
-                <div class="highlight-card" data-reveal>
-                    <div class="highlight-number">02</div>
-                    <h3>SAP ERP Specialist</h3>
-                    <p>Extensive hands-on experience with SAP ERP systems, ACH Payments, and financial process automation.</p>
-                </div>
-                <div class="highlight-card" data-reveal>
-                    <div class="highlight-number">03</div>
-                    <h3>Leadership &amp; Impact</h3>
-                    <p>President at Toastmasters International, driving communication and leadership development programs.</p>
-                </div>
-                <div class="highlight-card" data-reveal>
-                    <div class="highlight-number">04</div>
-                    <h3>Speaker &amp; Trainer</h3>
-                    <p>Founded @SpeakUptoStandOut &mdash; empowering individuals to become confident, impactful public speakers.</p>
-                </div>
-            </div>
-        </div>
-    </section>
+<script>
+    // Nav scroll
+    const nav=document.getElementById('nav');
+    window.addEventListener('scroll',()=>nav.classList.toggle('scrolled',scrollY>20));
+    const toggle=document.getElementById('navToggle'),links=document.getElementById('navLinks');
+    toggle.addEventListener('click',()=>links.classList.toggle('open'));
+    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>links.classList.remove('open')));
 
-    <!-- Experience Section -->
-    <section class="section" id="experience">
-        <div class="container">
-            <h2 class="section-title" data-reveal>Work <span class="highlight">Experience</span></h2>
-            <div class="timeline">
+    // Theme toggle
+    const themeBtn=document.getElementById('themeToggle');
+    const savedTheme=localStorage.getItem('theme');
+    if(savedTheme==='light'){document.documentElement.setAttribute('data-theme','light');themeBtn.textContent='Day';}
+    themeBtn.addEventListener('click',()=>{
+        const isLight=document.documentElement.getAttribute('data-theme')==='light';
+        if(isLight){ document.documentElement.removeAttribute('data-theme'); themeBtn.textContent='Night'; localStorage.setItem('theme','dark'); }
+        else { document.documentElement.setAttribute('data-theme','light'); themeBtn.textContent='Day'; localStorage.setItem('theme','light'); }
+    });
 
-                <div class="timeline-item" data-reveal>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="company-header">
-                            <div class="company-icon">TM</div>
-                            <div>
-                                <h3>Toastmasters International</h3>
-                                <p class="tenure-info">Full-time &middot; 2 yrs 1 mo</p>
-                            </div>
-                        </div>
-                        <div class="role-group">
-                            <div class="role">
-                                <h4>President</h4>
-                                <p class="date">Dec 2024 &ndash; Present</p>
-                            </div>
-                            <div class="role">
-                                <h4>Vice President Education</h4>
-                                <p class="date">Apr 2024 &ndash; Present</p>
-                            </div>
-                        </div>
-                        <div class="skill-tags">
-                            <span>People Management</span>
-                            <span>Meeting Scheduling</span>
-                            <span>Leadership</span>
-                            <span>Public Speaking</span>
-                        </div>
-                    </div>
-                </div>
+    // Intersection Observer for reveals
+    const obs=new IntersectionObserver(e=>e.forEach(el=>{if(el.isIntersecting)el.target.classList.add('visible')}),{threshold:.08,rootMargin:'0px 0px -40px 0px'});
+    document.querySelectorAll('.reveal,.reveal-left,.reveal-right,.reveal-stagger').forEach(el=>obs.observe(el));
 
-                <div class="timeline-item" data-reveal>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="company-header">
-                            <div class="company-icon">C</div>
-                            <div>
-                                <h3>Senior Associate</h3>
-                                <p class="company-name">Cargill</p>
-                                <p class="date">Jan 2022 &ndash; Present &middot; 4 yrs 4 mos</p>
-                                <p class="location">Bengaluru, Karnataka, India</p>
-                            </div>
-                        </div>
-                        <div class="skill-tags">
-                            <span>SAP ERP</span>
-                            <span>Finance</span>
-                            <span>P2P</span>
-                            <span>O2C</span>
-                        </div>
-                    </div>
-                </div>
+    // Scroll progress bar
+    const prog=document.getElementById('scrollProgress');
+    window.addEventListener('scroll',()=>{ const h=document.documentElement.scrollHeight-window.innerHeight; prog.style.width=(scrollY/h*100)+'%'; });
 
-                <div class="timeline-item" data-reveal>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="company-header">
-                            <div class="company-icon">I</div>
-                            <div>
-                                <h3>Finance Analyst</h3>
-                                <p class="company-name">Infosys BPM &middot; Full-time</p>
-                                <p class="date">Sep 2021 &ndash; Dec 2021 &middot; 4 mos</p>
-                                <p class="location">Pune District, Maharashtra, India &middot; Hybrid</p>
-                            </div>
-                        </div>
-                        <div class="skill-tags">
-                            <span>SAP ERP</span>
-                            <span>ACH Payments</span>
-                            <span>Finance</span>
-                            <span>R2R</span>
-                        </div>
-                    </div>
-                </div>
+    // Mouse spotlight glow
+    const glow=document.getElementById('mouseGlow');
+    document.addEventListener('mousemove',e=>{ glow.style.left=e.clientX+'px'; glow.style.top=e.clientY+'px'; });
 
-                <div class="timeline-item" data-reveal>
-                    <div class="timeline-marker"></div>
-                    <div class="timeline-content">
-                        <div class="company-header">
-                            <div class="company-icon">G</div>
-                            <div>
-                                <h3>Management Trainee</h3>
-                                <p class="company-name">Genpact &middot; Full-time</p>
-                                <p class="date">Oct 2016 &ndash; Aug 2021 &middot; 4 yrs 11 mos</p>
-                                <p class="location">Kolkata, West Bengal, India</p>
-                            </div>
-                        </div>
-                        <div class="skill-tags">
-                            <span>SAP ERP</span>
-                            <span>Finance</span>
-                            <span>Accounting</span>
-                        </div>
-                    </div>
-                </div>
+    // Card glow follow mouse
+    document.querySelectorAll('.skill-card,.proj-card,.session-card,.achieve-card,.expertise-card,.exp-card,.contact-card,.edu-card').forEach(card=>{
+        card.classList.add('glow-card');
+        card.addEventListener('mousemove',e=>{
+            const r=card.getBoundingClientRect();
+            card.style.setProperty('--mouse-x',((e.clientX-r.left)/r.width*100)+'%');
+            card.style.setProperty('--mouse-y',((e.clientY-r.top)/r.height*100)+'%');
+        });
+    });
 
-            </div>
-        </div>
-    </section>
-
-    <!-- Education Section -->
-    <section class="section section-alt" id="education">
-        <div class="container">
-            <h2 class="section-title" data-reveal>Education</h2>
-            <div class="education-grid">
-                <div class="edu-card" data-reveal>
-                    <div class="edu-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
-                    </div>
-                    <h3>The Bhawanipur Education Society College (BESC)</h3>
-                    <p class="degree">M.Com, Accounting and Finance</p>
-                    <p class="date">2015 &ndash; 2017</p>
-                </div>
-                <div class="edu-card" data-reveal>
-                    <div class="edu-icon">
-                        <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c0 1.66 2.69 3 6 3s6-1.34 6-3v-5"/></svg>
-                    </div>
-                    <h3>Arunachal University of Studies (AUS)</h3>
-                    <p class="degree">Bachelor of Laws &ndash; LLB, Law</p>
-                    <p class="date"></p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Skills Section -->
-    <section class="section" id="skills">
-        <div class="container">
-            <h2 class="section-title" data-reveal>Skills &amp; <span class="highlight">Expertise</span></h2>
-            <div class="skills-container">
-                <div class="skill-category" data-reveal>
-                    <h3>&#128200; Finance &amp; ERP</h3>
-                    <div class="skill-pills">
-                        <span>SAP ERP</span>
-                        <span>Finance</span>
-                        <span>ACH Payments</span>
-                        <span>P2P (Procure to Pay)</span>
-                        <span>O2C (Order to Cash)</span>
-                        <span>R2R (Record to Report)</span>
-                        <span>Accounting</span>
-                    </div>
-                </div>
-                <div class="skill-category" data-reveal>
-                    <h3>&#128081; Leadership &amp; Management</h3>
-                    <div class="skill-pills">
-                        <span>People Management</span>
-                        <span>Meeting Scheduling</span>
-                        <span>Public Speaking</span>
-                        <span>L&amp;D Training</span>
-                        <span>Leadership</span>
-                    </div>
-                </div>
-                <div class="skill-category" data-reveal>
-                    <h3>&#127760; Communication</h3>
-                    <div class="skill-pills">
-                        <span>English</span>
-                        <span>Communication</span>
-                        <span>Presentation Skills</span>
-                        <span>Team Collaboration</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Quote Section -->
-    <section class="quote-section">
-        <div class="container">
-            <blockquote class="glam-quote" data-reveal>
-                <span class="quote-mark">&ldquo;</span>
-                <p>Speak up, stand out, and let your voice be the change the world needs.</p>
-                <cite>&mdash; Aafreen Naaz</cite>
-            </blockquote>
-        </div>
-    </section>
-
-    <!-- Featured Video Section -->
-    <section class="section section-alt" id="video">
-        <div class="container">
-            <h2 class="section-title" data-reveal>Watch Me <span class="highlight">Speak</span></h2>
-            <p class="section-subtitle" data-reveal>Check out my speaking &amp; presentation skills in action</p>
-            <div class="video-wrapper" data-reveal>
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/NiziXZAPJxM?si=sC2g8fiL2GMLrbio" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="section" id="contact">
-        <div class="container">
-            <h2 class="section-title" data-reveal>Let's <span class="highlight">Connect</span></h2>
-            <div class="contact-content" data-reveal>
-                <p>I'm always open to discussing new opportunities, collaborations, or simply connecting with like-minded professionals.</p>
-                <div class="contact-links">
-                    <a href="https://www.linkedin.com/in/aafreen-naaz-98381a205" target="_blank" rel="noopener noreferrer" class="contact-card">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z"/></svg>
-                        <span>LinkedIn</span>
-                    </a>
-                    <a href="https://youtube.com/@mess_aholic" target="_blank" rel="noopener noreferrer" class="contact-card">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M23.498 6.186a3.016 3.016 0 00-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 00.502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 002.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 002.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>
-                        <span>YouTube</span>
-                    </a>
-                    <a href="https://www.instagram.com/speakuptostandout" target="_blank" rel="noopener noreferrer" class="contact-card">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z"/></svg>
-                        <span>Instagram</span>
-                    </a>
-                    <a href="https://github.com/messaholic" target="_blank" rel="noopener noreferrer" class="contact-card">
-                        <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor"><path d="M12 0C5.374 0 0 5.373 0 12c0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23A11.509 11.509 0 0112 5.803c1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576C20.566 21.797 24 17.3 24 12c0-6.627-5.373-12-12-12z"/></svg>
-                        <span>GitHub</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Footer -->
-    <footer class="footer">
-        <div class="container">
-            <div class="footer-content">
-                <p class="footer-logo">A<span class="logo-dot">.</span>N</p>
-                <p>Designed with &#10024; by Aafreen Naaz &copy; 2026</p>
-                <p class="footer-tagline">Finance | Leadership | Voice</p>
-            </div>
-        </div>
-    </footer>
-
-    <script>
-        // Typewriter effect
-        var words = ['Finance Analyst', 'Public Speaker', 'Toastmasters President', 'L&D Trainer', 'SAP ERP Specialist'];
-        var wordIndex = 0, charIndex = 0, isDeleting = false;
-        var typewriterEl = document.getElementById('typewriter');
-        function typewrite() {
-            var current = words[wordIndex];
-            typewriterEl.textContent = isDeleting ? current.substring(0, charIndex--) : current.substring(0, charIndex++);
-            if (!isDeleting && charIndex > current.length) {
-                setTimeout(function() { isDeleting = true; typewrite(); }, 2000);
-                return;
+    // Counter animation
+    const countObs=new IntersectionObserver(entries=>{
+        entries.forEach(entry=>{
+            if(!entry.isIntersecting)return;
+            const el=entry.target;
+            const target=parseFloat(el.dataset.target);
+            const suffix=el.dataset.suffix||'';
+            const isFloat=target%1!==0;
+            const duration=1500;
+            const start=performance.now();
+            function update(now){
+                const p=Math.min((now-start)/duration,1);
+                const eased=1-Math.pow(1-p,3);
+                const val=eased*target;
+                el.textContent=(isFloat?val.toFixed(1):Math.floor(val))+suffix;
+                if(p<1)requestAnimationFrame(update);
             }
-            if (isDeleting && charIndex < 0) {
-                isDeleting = false;
-                wordIndex = (wordIndex + 1) % words.length;
+            requestAnimationFrame(update);
+            countObs.unobserve(el);
+        });
+    },{threshold:.5});
+    document.querySelectorAll('.count-up').forEach(el=>countObs.observe(el));
+
+    // Typing effect
+    const roles=['Public Speaker & Toastmasters President','L&D Trainer @SpeakUptoStandOut','Senior Associate at Cargill','Communication & Leadership Coach','M.Com | LLB | Finance Analyst'];
+    let ri=0,ci=0,deleting=false;
+    const typeEl=document.getElementById('heroTyping');
+    function typeLoop(){
+        if(!typeEl)return;
+        const word=roles[ri];
+        if(!deleting){ typeEl.textContent=word.slice(0,++ci); if(ci===word.length){deleting=true;setTimeout(typeLoop,2000);return;} setTimeout(typeLoop,60); }
+        else{ typeEl.textContent=word.slice(0,--ci); if(ci===0){deleting=false;ri=(ri+1)%roles.length;setTimeout(typeLoop,400);return;} setTimeout(typeLoop,30); }
+    }
+    typeLoop();
+
+    // Parallax orbs
+    const heroBg=document.querySelector('.hero-bg');
+    if(heroBg){
+        document.addEventListener('mousemove',e=>{
+            const x=(e.clientX/window.innerWidth-.5)*20;
+            const y=(e.clientY/window.innerHeight-.5)*20;
+            heroBg.querySelectorAll('.orb').forEach((o,i)=>{ const s=(i+1)*0.5; o.style.transform=`translate(${x*s}px,${y*s}px)`; });
+        });
+    }
+
+    // RATING WIDGET
+    let selectedStars=0;
+    const stars=document.querySelectorAll('#starRow .star');
+    const submitBtn=document.getElementById('ratingSubmit');
+    stars.forEach(star=>{
+        star.addEventListener('mouseenter',()=>{ const v=parseInt(star.dataset.v); stars.forEach(s=>s.classList.toggle('hovered',parseInt(s.dataset.v)<=v)); });
+        star.addEventListener('mouseleave',()=>{ stars.forEach(s=>s.classList.remove('hovered')); });
+        star.addEventListener('click',()=>{ selectedStars=parseInt(star.dataset.v); stars.forEach(s=>s.classList.toggle('active',parseInt(s.dataset.v)<=selectedStars)); submitBtn.disabled=false; });
+    });
+    function toggleRating(){ const panel=document.getElementById('ratingPanel'); const tab=document.getElementById('ratingTab'); panel.classList.toggle('open'); tab.style.display=panel.classList.contains('open')?'none':''; }
+    function loadRatings(){
+        const ratings=JSON.parse(localStorage.getItem('siteRatings')||'[]');
+        const avgDiv=document.getElementById('ratingAvg');
+        if(ratings.length===0){avgDiv.style.display='none';return;}
+        const avg=(ratings.reduce((s,r)=>s+r.stars,0)/ratings.length).toFixed(1);
+        const fullStars='★'.repeat(Math.round(parseFloat(avg)))+'☆'.repeat(5-Math.round(parseFloat(avg)));
+        avgDiv.innerHTML='<div class="avg-stars">'+fullStars+'</div><div class="avg-text">'+avg+' / 5 · '+ratings.length+' rating'+(ratings.length>1?'s':'')+'</div>';
+        avgDiv.style.display='';
+        if(localStorage.getItem('hasRatedSite')){ document.getElementById('ratingForm').style.display='none'; document.getElementById('ratingThanks').style.display=''; }
+    }
+    function submitRating(){
+        if(selectedStars===0)return;
+        const comment=document.getElementById('ratingComment').value.trim();
+        const ratings=JSON.parse(localStorage.getItem('siteRatings')||'[]');
+        ratings.push({stars:selectedStars,comment:comment,date:new Date().toISOString()});
+        localStorage.setItem('siteRatings',JSON.stringify(ratings));
+        localStorage.setItem('hasRatedSite','true');
+        document.getElementById('ratingForm').style.display='none';
+        document.getElementById('ratingThanks').style.display='';
+        loadRatings();
+        if(typeof emailjs!=='undefined'){
+            emailjs.send('service_phdrjfp','template_k2ysz6k',{session:'Website Rating: '+selectedStars+'/5 stars',date:new Date().toLocaleDateString(),time:new Date().toLocaleTimeString(),name:'Anonymous Visitor',email:'N/A',phone:'N/A',message:comment||'No comment',amount:'Free',payment_id:'N/A (Rating)',to_email:'yasir.grc08@gmail.com'}).catch(()=>{});
+        }
+    }
+    loadRatings();
+
+    // BOOKING SYSTEM + RAZORPAY
+    const RAZORPAY_KEY='rzp_live_SdMpxrq9I6XhNj';
+    let booking={type:'',name:'',price:0,duration:0,date:'',time:'',userName:'',userEmail:'',userPhone:'',userMsg:''};
+    const DAYS=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+    const MONTHS=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+    function openBooking(type,name,price,duration){
+        booking={type,name,price,duration,date:'',time:'',userName:'',userEmail:'',userPhone:'',userMsg:'',dateRaw:'',dateDow:0};
+        document.getElementById('modalTitle').textContent='Book: '+name;
+        updateTags();
+        generateDates();generateTimes();goStep(1);
+        document.getElementById('bookingModal').classList.add('active');
+        document.body.style.overflow='hidden';
+    }
+    function closeBooking(){ document.getElementById('bookingModal').classList.remove('active'); document.body.style.overflow=''; }
+    document.getElementById('bookingModal').addEventListener('click',function(e){if(e.target===this)closeBooking();});
+    function updateTags(){
+        const txt=booking.name+(booking.duration?' · '+booking.duration+' mins':'')+' · ₹'+booking.price;
+        ['selectedTag','selectedTag2','selectedTag3'].forEach(id=>{const el=document.getElementById(id);if(el)el.textContent=txt;});
+    }
+    function goStep(n){ document.querySelectorAll('.modal-step').forEach(s=>s.classList.remove('active')); document.getElementById('step'+n).classList.add('active'); if(n===3)updateSummary(); }
+    function generateDates(){
+        const grid=document.getElementById('dateGrid'); grid.innerHTML='';
+        const today=new Date(); let count=0;
+        for(let i=1;count<14;i++){
+            const d=new Date(today); d.setDate(today.getDate()+i);
+            const dow=d.getDay(); const btn=document.createElement('button'); btn.className='date-btn';
+            const dateStr=d.getDate()+' '+MONTHS[d.getMonth()]; const isWeekend=(dow===0||dow===6);
+            btn.innerHTML='<span class="day-name">'+DAYS[dow]+(isWeekend?' 🎮':'')+'</span>'+dateStr;
+            btn.dataset.date=d.toISOString().split('T')[0];
+            btn.dataset.display=DAYS[dow]+', '+dateStr+' '+d.getFullYear();
+            btn.dataset.dow=dow;
+            btn.onclick=function(){ grid.querySelectorAll('.date-btn').forEach(b=>b.classList.remove('selected')); this.classList.add('selected'); booking.date=this.dataset.display; booking.dateRaw=this.dataset.date; booking.dateDow=parseInt(this.dataset.dow); document.getElementById('toStep2Btn').disabled=false; generateTimes(); };
+            grid.appendChild(btn); count++;
+        }
+    }
+    function generateTimes(){
+        const grid=document.getElementById('timeGrid'); grid.innerHTML='';
+        const isWeekend=(booking.dateDow===0||booking.dateDow===6);
+        let interval=30;
+        if(booking.type==='call')interval=20; else if(booking.type==='chat')interval=15;
+        const startHour=isWeekend?9:17; const endHour=23; const slots=[];
+        for(let h=startHour;h<endHour;h++){
+            for(let m=0;m<60;m+=interval){
+                if(h===endHour-1&&m+interval>60)break;
+                const endM=m+interval; const endH=h+Math.floor(endM/60); const endMM=endM%60;
+                if(endH>endHour||(endH===endHour&&endMM>0))break;
+                const fmt=(hh,mm)=>{const ampm=hh>=12?'PM':'AM';const h12=hh>12?hh-12:(hh===0?12:hh);return h12+':'+String(mm).padStart(2,'0')+' '+ampm;};
+                slots.push(fmt(h,m)+' \u2013 '+fmt(endH,endMM));
             }
-            setTimeout(typewrite, isDeleting ? 40 : 80);
         }
-        typewrite();
-
-        // Mobile nav toggle
-        document.querySelector('.nav-toggle').addEventListener('click', function () {
-            document.querySelector('.nav-links').classList.toggle('active');
+        slots.forEach(slot=>{
+            const btn=document.createElement('button'); btn.className='time-btn'; btn.textContent=slot;
+            btn.onclick=function(){ grid.querySelectorAll('.time-btn').forEach(b=>b.classList.remove('selected')); this.classList.add('selected'); booking.time=slot; document.getElementById('toStep3Btn').disabled=false; };
+            grid.appendChild(btn);
         });
-        document.querySelectorAll('.nav-links a').forEach(function (link) {
-            link.addEventListener('click', function () {
-                document.querySelector('.nav-links').classList.remove('active');
-            });
-        });
+    }
+    function updateSummary(){
+        const html=`<div class="summary-row"><span class="label">Session</span><span class="value">${booking.name}</span></div>${booking.duration?'<div class="summary-row"><span class="label">Duration</span><span class="value">'+booking.duration+' mins</span></div>':''}<div class="summary-row"><span class="label">Date</span><span class="value">${booking.date}</span></div><div class="summary-row"><span class="label">Time</span><span class="value">${booking.time}</span></div><div class="summary-row total"><span class="label">Total</span><span class="value">₹${booking.price}</span></div>`;
+        document.getElementById('bookingSummary').innerHTML=html;
+    }
+    function validateStep3(){
+        const name=document.getElementById('bookName').value.trim();
+        const email=document.getElementById('bookEmail').value.trim();
+        const phone=document.getElementById('bookPhone').value.trim();
+        if(!name||!email||!phone){alert('Please fill in all required fields.');return false;}
+        const emailRegex=/^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        if(!emailRegex.test(email)){alert('Please enter a valid email address.');return false;}
+        booking.userName=name; booking.userEmail=email; booking.userPhone=phone;
+        booking.userMsg=document.getElementById('bookMsg').value.trim();
+        return true;
+    }
+    function initiatePayment(){
+        if(!validateStep3())return;
+        const options={
+            key:RAZORPAY_KEY, amount:booking.price*100, currency:'INR',
+            name:'Aafreen Naaz', description:booking.name+(booking.duration?' ('+booking.duration+' min)':'')+' — '+booking.date+' '+booking.time,
+            image:'https://messaholic.github.io/profile.jpg',
+            prefill:{name:booking.userName,email:booking.userEmail,contact:booking.userPhone},
+            theme:{color:'#a855f7'},
+            handler:function(response){onPaymentSuccess(response.razorpay_payment_id);},
+            modal:{ondismiss:function(){}},
+            notes:{session:booking.name,date:booking.date,time:booking.time,customer_name:booking.userName,customer_email:booking.userEmail}
+        };
+        const rzp=new Razorpay(options);
+        rzp.on('payment.failed',function(response){alert('Payment failed: '+response.error.description+'. Please try again.');});
+        rzp.open();
+    }
+    function onPaymentSuccess(paymentId){
+        addBookingTracker(booking.name,booking.userName,booking.userEmail,booking.userPhone,booking.price,paymentId,booking.date,booking.time);
+        const successHtml=`<div class="summary-row"><span class="label">Session</span><span class="value">${booking.name}</span></div><div class="summary-row"><span class="label">Date</span><span class="value">${booking.date}</span></div><div class="summary-row"><span class="label">Time</span><span class="value">${booking.time}</span></div><div class="summary-row"><span class="label">Booked By</span><span class="value">${booking.userName}</span></div><div class="summary-row"><span class="label">Payment ID</span><span class="value" style="font-family:var(--mono);font-size:.8rem;">${paymentId}</span></div><div class="summary-row total"><span class="label">Paid</span><span class="value">₹${booking.price}</span></div>`;
+        document.getElementById('successSummary').innerHTML=successHtml;
+        goStep(4);
+        sendEmailNotification(paymentId);
+    }
+    function sendEmailNotification(paymentId){
+        const feedbackLink=generateFeedbackLink(booking.name);
+        const templateParams={session:booking.name,duration:booking.duration?booking.duration+' mins':'N/A',date:booking.date,time:booking.time,name:booking.userName,email:booking.userEmail,phone:booking.userPhone,message:(booking.userMsg||'No message')+'\n\nFeedback Link: '+feedbackLink,amount:'₹'+booking.price,payment_id:paymentId,to_email:'yasir.grc08@gmail.com',reply_to:booking.userEmail};
+        if(typeof emailjs!=='undefined'){
+            emailjs.send('service_phdrjfp','template_k2ysz6k',templateParams).then(function(){}).catch(function(err){alert('Payment successful! But email notification failed. Please take a screenshot.'); openMailtoFallback(paymentId);});
+        } else { openMailtoFallback(paymentId); }
+    }
+    function openMailtoFallback(paymentId){
+        const subject=encodeURIComponent('New Booking: '+booking.name+' — '+booking.date);
+        const body=encodeURIComponent('New Session Booked!\n\nSession: '+booking.name+'\nDate: '+booking.date+'\nTime: '+booking.time+'\nCustomer: '+booking.userName+'\nEmail: '+booking.userEmail+'\nPhone: '+booking.userPhone+'\nMessage: '+(booking.userMsg||'N/A')+'\nAmount: ₹'+booking.price+'\nPayment ID: '+paymentId);
+        window.open('mailto:yasir.grc08@gmail.com?subject='+subject+'&body='+body,'_blank');
+    }
 
-        // Navbar scroll
-        window.addEventListener('scroll', function () {
-            document.querySelector('.navbar').classList.toggle('scrolled', window.scrollY > 50);
-        });
-
-        // Scroll reveal
-        var reveals = document.querySelectorAll('[data-reveal]');
-        var revealObserver = new IntersectionObserver(function(entries) {
-            entries.forEach(function(entry) {
-                if (entry.isIntersecting) {
-                    entry.target.classList.add('revealed');
-                    revealObserver.unobserve(entry.target);
-                }
-            });
-        }, { threshold: 0.15 });
-        reveals.forEach(function(el) { revealObserver.observe(el); });
-
-        // Counter animation
-        var counters = document.querySelectorAll('.stat-number');
-        var counterObserver = new IntersectionObserver(function(entries) {
-            entries.forEach(function(entry) {
-                if (entry.isIntersecting) {
-                    var el = entry.target;
-                    var target = parseInt(el.getAttribute('data-count'));
-                    var duration = 2000;
-                    var start = 0;
-                    var startTime = null;
-                    function animateCount(timestamp) {
-                        if (!startTime) startTime = timestamp;
-                        var progress = Math.min((timestamp - startTime) / duration, 1);
-                        el.textContent = Math.floor(progress * target);
-                        if (progress < 1) requestAnimationFrame(animateCount);
-                        else el.textContent = target;
-                    }
-                    requestAnimationFrame(animateCount);
-                    counterObserver.unobserve(el);
-                }
-            });
-        }, { threshold: 0.5 });
-        counters.forEach(function(el) { counterObserver.observe(el); });
-
-        // Particle canvas
-        var canvas = document.getElementById('particlesCanvas');
-        var ctx = canvas.getContext('2d');
-        var particles = [];
-        function resizeCanvas() { canvas.width = canvas.offsetWidth; canvas.height = canvas.offsetHeight; }
-        resizeCanvas();
-        window.addEventListener('resize', resizeCanvas);
-        for (var i = 0; i < 60; i++) {
-            particles.push({
-                x: Math.random() * canvas.width, y: Math.random() * canvas.height,
-                vx: (Math.random() - 0.5) * 0.5, vy: (Math.random() - 0.5) * 0.5,
-                r: Math.random() * 2 + 0.5, a: Math.random() * 0.5 + 0.1
-            });
+    // FEEDBACK SYSTEM
+    let fbSelectedStars=0;
+    const fbStars=document.querySelectorAll('#fbStarRow .fb-star');
+    const fbSubmitBtn=document.getElementById('fbSubmit');
+    fbStars.forEach(star=>{
+        star.addEventListener('mouseenter',()=>{const v=parseInt(star.dataset.v);fbStars.forEach(s=>s.classList.toggle('hovered',parseInt(s.dataset.v)<=v));});
+        star.addEventListener('mouseleave',()=>{fbStars.forEach(s=>s.classList.remove('hovered'));});
+        star.addEventListener('click',()=>{fbSelectedStars=parseInt(star.dataset.v);fbStars.forEach(s=>s.classList.toggle('active',parseInt(s.dataset.v)<=fbSelectedStars));checkFbReady();});
+    });
+    function checkFbReady(){ const name=document.getElementById('fbName').value.trim(); const comment=document.getElementById('fbComment').value.trim(); fbSubmitBtn.disabled=!(fbSelectedStars>0&&name&&comment); }
+    document.getElementById('fbName').addEventListener('input',checkFbReady);
+    document.getElementById('fbComment').addEventListener('input',checkFbReady);
+    function generateFeedbackLink(sessionName){ return 'https://messaholic.github.io/?feedback='+encodeURIComponent(sessionName); }
+    function openFeedbackForm(sessionName){
+        document.getElementById('fbSessionTag').textContent=sessionName||'Session';
+        document.getElementById('fbForm').style.display=''; document.getElementById('fbThanks').style.display='none';
+        fbSelectedStars=0; fbStars.forEach(s=>s.classList.remove('active','hovered'));
+        document.getElementById('fbName').value=''; document.getElementById('fbComment').value=''; fbSubmitBtn.disabled=true;
+        document.getElementById('feedbackOverlay').classList.add('active');
+    }
+    function closeFeedback(){ document.getElementById('feedbackOverlay').classList.remove('active'); }
+    document.getElementById('feedbackOverlay').addEventListener('click',function(e){if(e.target===this)closeFeedback();});
+    function submitFeedback(){
+        const name=document.getElementById('fbName').value.trim();
+        const comment=document.getElementById('fbComment').value.trim();
+        if(!fbSelectedStars||!name||!comment)return;
+        const sessionName=document.getElementById('fbSessionTag').textContent;
+        const review={name:name,stars:fbSelectedStars,comment:comment,session:sessionName,date:new Date().toLocaleDateString('en-IN',{day:'numeric',month:'short',year:'numeric'})};
+        const reviews=JSON.parse(localStorage.getItem('sessionReviews')||'[]');
+        reviews.push(review); localStorage.setItem('sessionReviews',JSON.stringify(reviews));
+        document.getElementById('fbForm').style.display='none'; document.getElementById('fbThanks').style.display='';
+        renderDynamicReviews();
+        if(typeof emailjs!=='undefined'){
+            emailjs.send('service_phdrjfp','template_k2ysz6k',{session:'New Review: '+fbSelectedStars+'/5 stars — '+sessionName,date:review.date,time:'N/A',name:name,email:'N/A',phone:'N/A',message:comment,amount:'Feedback',payment_id:'N/A (Review)',to_email:'yasir.grc08@gmail.com'}).catch(()=>{});
         }
-        function drawParticles() {
-            ctx.clearRect(0, 0, canvas.width, canvas.height);
-            particles.forEach(function(p) {
-                p.x += p.vx; p.y += p.vy;
-                if (p.x < 0) p.x = canvas.width;
-                if (p.x > canvas.width) p.x = 0;
-                if (p.y < 0) p.y = canvas.height;
-                if (p.y > canvas.height) p.y = 0;
-                ctx.beginPath();
-                ctx.arc(p.x, p.y, p.r, 0, Math.PI * 2);
-                ctx.fillStyle = 'rgba(168,130,255,' + p.a + ')';
-                ctx.fill();
-            });
-            // Draw connections
-            for (var i = 0; i < particles.length; i++) {
-                for (var j = i + 1; j < particles.length; j++) {
-                    var dx = particles[i].x - particles[j].x;
-                    var dy = particles[i].y - particles[j].y;
-                    var dist = Math.sqrt(dx * dx + dy * dy);
-                    if (dist < 120) {
-                        ctx.beginPath();
-                        ctx.moveTo(particles[i].x, particles[i].y);
-                        ctx.lineTo(particles[j].x, particles[j].y);
-                        ctx.strokeStyle = 'rgba(168,130,255,' + (0.08 * (1 - dist / 120)) + ')';
-                        ctx.stroke();
-                    }
-                }
-            }
-            requestAnimationFrame(drawParticles);
-        }
-        drawParticles();
-
-        // Cursor glow
-        var cursorGlow = document.getElementById('cursorGlow');
-        document.addEventListener('mousemove', function(e) {
-            cursorGlow.style.left = e.clientX + 'px';
-            cursorGlow.style.top = e.clientY + 'px';
+    }
+    function renderDynamicReviews(){
+        const container=document.getElementById('dynamicReviews');
+        const reviews=JSON.parse(localStorage.getItem('sessionReviews')||'[]');
+        if(reviews.length===0){container.innerHTML='';return;}
+        let html='<div class="dynamic-reviews-title">Recent Session Reviews</div>';
+        html+='<div style="display:flex;gap:1.25rem;overflow-x:auto;padding:0 .5rem 1rem;scroll-snap-type:x mandatory;">';
+        reviews.slice().reverse().forEach(r=>{
+            const starsHtml='★'.repeat(r.stars)+'☆'.repeat(5-r.stars);
+            html+=`<div class="testi-card" style="flex:0 0 340px;scroll-snap-align:center;"><div class="testi-stars">${starsHtml}</div><p class="testi-text">${r.comment}</p><div class="testi-author"><div class="testi-avatar">${r.name.charAt(0).toUpperCase()}</div><div><div class="testi-name">${r.name}</div><div class="testi-role">${r.session} · ${r.date}</div></div></div></div>`;
         });
-    </script>
+        html+='</div>'; container.innerHTML=html;
+    }
+    (function checkFeedbackUrl(){
+        const params=new URLSearchParams(window.location.search);
+        const fb=params.get('feedback');
+        if(fb){setTimeout(()=>openFeedbackForm(decodeURIComponent(fb)),1000);}
+    })();
+    renderDynamicReviews();
+
+    // BOOKING TRACKER
+    function getTrackedBookings(){return JSON.parse(localStorage.getItem('an_bookings')||'[]');}
+    function saveTrackedBookings(b){localStorage.setItem('an_bookings',JSON.stringify(b));updateBadge();}
+    function addBookingTracker(service,client,email,phone,amount,paymentId,date,time){
+        var b=getTrackedBookings();
+        b.push({id:Date.now(),service:service,client:client,email:email,phone:phone,amount:amount,paymentId:paymentId,date:date||'',time:time||'',booked:new Date().toISOString()});
+        saveTrackedBookings(b);
+    }
+    function removeTrackedBooking(id){ var b=getTrackedBookings().filter(function(x){return x.id!==id;}); saveTrackedBookings(b); renderAdmin(); }
+    function clearAllTrackedBookings(){ if(!confirm('Clear ALL active bookings?'))return; saveTrackedBookings([]); renderAdmin(); }
+    function updateBadge(){ var count=getTrackedBookings().length; document.getElementById('badgeCount').textContent=count; document.getElementById('bookingBadge').classList.toggle('has-bookings',count>0); }
+    function toggleAdmin(){ var o=document.getElementById('adminOverlay'); o.classList.toggle('active'); if(o.classList.contains('active'))renderAdmin(); }
+    document.getElementById('adminOverlay').addEventListener('click',function(e){if(e.target===this)toggleAdmin();});
+    function renderAdmin(){
+        var b=getTrackedBookings(); var body=document.getElementById('adminBody');
+        if(b.length===0){body.innerHTML='<div class="admin-empty">// no active bookings<br>all clear ✓</div>';return;}
+        var html='';
+        b.forEach(function(item){
+            html+='<div class="admin-booking">';
+            html+='<button class="ab-close" onclick="removeTrackedBooking('+item.id+')" title="Mark as addressed">✕</button>';
+            html+='<div class="ab-service">'+item.service+'</div>';
+            html+='<div class="ab-client">'+item.client+' · '+item.email+'</div>';
+            if(item.date)html+='<div class="ab-date-time">'+item.date+(item.time?' · '+item.time:'')+'</div>';
+            html+='<div class="ab-details">₹'+item.amount+' · '+item.paymentId+' · '+new Date(item.booked).toLocaleDateString()+'</div>';
+            html+='</div>';
+        });
+        html+='<div class="admin-actions"><button class="btn-clear-all" onclick="clearAllTrackedBookings()">Clear All ('+b.length+')</button></div>';
+        body.innerHTML=html;
+    }
+    document.addEventListener('keydown',function(e){if(e.ctrlKey&&e.shiftKey&&e.key==='B'){e.preventDefault();toggleAdmin();}});
+    updateBadge();
+
+    // COURSES TRACKER (replaces DSA)
+    var DEFAULT_COURSES=[
+        // Communication Fundamentals
+        {name:'Active Listening',cat:'Communication Fundamentals',diff:'Beginner'},
+        {name:'Verbal Communication',cat:'Communication Fundamentals',diff:'Beginner'},
+        {name:'Non-Verbal Communication',cat:'Communication Fundamentals',diff:'Beginner'},
+        {name:'Building Rapport',cat:'Communication Fundamentals',diff:'Intermediate'},
+        {name:'Empathetic Communication',cat:'Communication Fundamentals',diff:'Intermediate'},
+        {name:'Clarity & Conciseness',cat:'Communication Fundamentals',diff:'Beginner'},
+        {name:'Feedback Techniques',cat:'Communication Fundamentals',diff:'Intermediate'},
+        // Presentation Mastery
+        {name:'Structuring a Speech',cat:'Presentation Mastery',diff:'Beginner'},
+        {name:'Visual Aid Design',cat:'Presentation Mastery',diff:'Intermediate'},
+        {name:'Opening & Closing Techniques',cat:'Presentation Mastery',diff:'Intermediate'},
+        {name:'Handling Q&A Sessions',cat:'Presentation Mastery',diff:'Intermediate'},
+        {name:'Engaging Your Audience',cat:'Presentation Mastery',diff:'Intermediate'},
+        {name:'Storytelling in Presentations',cat:'Presentation Mastery',diff:'Advanced'},
+        {name:'Persuasive Presentations',cat:'Presentation Mastery',diff:'Advanced'},
+        // Leadership Development
+        {name:'Leading by Example',cat:'Leadership Development',diff:'Beginner'},
+        {name:'Decision Making',cat:'Leadership Development',diff:'Intermediate'},
+        {name:'Conflict Resolution',cat:'Leadership Development',diff:'Intermediate'},
+        {name:'Team Building',cat:'Leadership Development',diff:'Intermediate'},
+        {name:'Delegation Skills',cat:'Leadership Development',diff:'Intermediate'},
+        {name:'Motivating Others',cat:'Leadership Development',diff:'Intermediate'},
+        {name:'Strategic Thinking',cat:'Leadership Development',diff:'Advanced'},
+        {name:'Emotional Intelligence',cat:'Leadership Development',diff:'Advanced'},
+        // Public Speaking
+        {name:'Overcoming Stage Fright',cat:'Public Speaking',diff:'Beginner'},
+        {name:'Impromptu Speaking',cat:'Public Speaking',diff:'Intermediate'},
+        {name:'Table Topics Mastery',cat:'Public Speaking',diff:'Intermediate'},
+        {name:'Speech Evaluation',cat:'Public Speaking',diff:'Intermediate'},
+        {name:'Humorous Speaking',cat:'Public Speaking',diff:'Advanced'},
+        {name:'Inspirational Speaking',cat:'Public Speaking',diff:'Advanced'},
+        // Body Language
+        {name:'Eye Contact Mastery',cat:'Body Language',diff:'Beginner'},
+        {name:'Posture & Stance',cat:'Body Language',diff:'Beginner'},
+        {name:'Hand Gestures',cat:'Body Language',diff:'Intermediate'},
+        {name:'Facial Expressions',cat:'Body Language',diff:'Intermediate'},
+        {name:'Space & Proximity',cat:'Body Language',diff:'Intermediate'},
+        // Storytelling & Narrative
+        {name:'STAR Method',cat:'Storytelling & Narrative',diff:'Beginner'},
+        {name:'Personal Anecdotes',cat:'Storytelling & Narrative',diff:'Intermediate'},
+        {name:'Data Storytelling',cat:'Storytelling & Narrative',diff:'Intermediate'},
+        {name:'Hook Techniques',cat:'Storytelling & Narrative',diff:'Intermediate'},
+        {name:'Emotional Arc',cat:'Storytelling & Narrative',diff:'Advanced'},
+        // Voice & Diction
+        {name:'Vocal Variety',cat:'Voice & Diction',diff:'Beginner'},
+        {name:'Pace & Pausing',cat:'Voice & Diction',diff:'Intermediate'},
+        {name:'Pronunciation & Articulation',cat:'Voice & Diction',diff:'Intermediate'},
+        {name:'Tone & Pitch Control',cat:'Voice & Diction',diff:'Intermediate'},
+        {name:'Volume & Projection',cat:'Voice & Diction',diff:'Beginner'},
+        // Meeting Facilitation
+        {name:'Running Effective Meetings',cat:'Meeting Facilitation',diff:'Beginner'},
+        {name:'Group Discussion Facilitation',cat:'Meeting Facilitation',diff:'Intermediate'},
+        {name:'Parliamentary Procedure',cat:'Meeting Facilitation',diff:'Intermediate'},
+        {name:'Agenda Planning',cat:'Meeting Facilitation',diff:'Beginner'},
+        {name:'Time Management in Meetings',cat:'Meeting Facilitation',diff:'Intermediate'},
+        // Professional Communication
+        {name:'Email Etiquette',cat:'Professional Communication',diff:'Beginner'},
+        {name:'Business Writing',cat:'Professional Communication',diff:'Intermediate'},
+        {name:'Negotiation Skills',cat:'Professional Communication',diff:'Advanced'},
+        {name:'Networking Strategies',cat:'Professional Communication',diff:'Intermediate'},
+        {name:'Elevator Pitch',cat:'Professional Communication',diff:'Beginner'},
+        // Toastmasters Pathway
+        {name:'Ice Breaker Speech',cat:'Toastmasters Pathway',diff:'Beginner'},
+        {name:'Competent Communicator',cat:'Toastmasters Pathway',diff:'Intermediate'},
+        {name:'Advanced Communicator',cat:'Toastmasters Pathway',diff:'Advanced'},
+        {name:'Competent Leader',cat:'Toastmasters Pathway',diff:'Intermediate'},
+        {name:'Advanced Leader',cat:'Toastmasters Pathway',diff:'Advanced'},
+        {name:'Distinguished Toastmaster',cat:'Toastmasters Pathway',diff:'Advanced'}
+    ];
+
+    var CAT_ICONS={
+        'Communication Fundamentals':'🎤','Presentation Mastery':'🎯','Leadership Development':'👑',
+        'Public Speaking':'🗣️','Body Language':'🎭','Storytelling & Narrative':'📖',
+        'Voice & Diction':'🎙️','Meeting Facilitation':'🤝','Professional Communication':'💼',
+        'Toastmasters Pathway':'🏆'
+    };
+
+    function getCourses(){ return DEFAULT_COURSES; }
+    function renderCourses(){
+        var courses=getCourses();
+        var cats={};
+        var beginner=0,intermediate=0,advanced=0;
+        courses.forEach(function(p){
+            if(!cats[p.cat])cats[p.cat]=[];
+            cats[p.cat].push(p);
+            if(p.diff==='Beginner')beginner++;
+            else if(p.diff==='Intermediate')intermediate++;
+            else advanced++;
+        });
+        var sumHtml='';
+        sumHtml+='<div class="dsa-stat"><div class="ds-num">'+courses.length+'</div><div class="ds-label">Total Topics</div></div>';
+        sumHtml+='<div class="dsa-stat" style="--accent:#22c55e;"><div class="ds-num" style="color:#22c55e;">'+beginner+'</div><div class="ds-label">Beginner</div></div>';
+        sumHtml+='<div class="dsa-stat" style="--accent:#f59e0b;"><div class="ds-num" style="color:#f59e0b;">'+intermediate+'</div><div class="ds-label">Intermediate</div></div>';
+        sumHtml+='<div class="dsa-stat" style="--accent:#ef4444;"><div class="ds-num" style="color:#ef4444;">'+advanced+'</div><div class="ds-label">Advanced</div></div>';
+        sumHtml+='<div class="dsa-stat"><div class="ds-num">'+Object.keys(cats).length+'</div><div class="ds-label">Categories</div></div>';
+        document.getElementById('dsaSummary').innerHTML=sumHtml;
+        var catHtml='';
+        var catOrder=['Communication Fundamentals','Presentation Mastery','Leadership Development','Public Speaking','Body Language','Storytelling & Narrative','Voice & Diction','Meeting Facilitation','Professional Communication','Toastmasters Pathway'];
+        catOrder.forEach(function(cat){
+            if(!cats[cat])return;
+            var icon=CAT_ICONS[cat]||'📝';
+            catHtml+='<div class="dsa-cat-card">';
+            catHtml+='<div class="dsa-cat-header"><h3>'+icon+' '+cat+'</h3><span class="cat-count">'+cats[cat].length+'</span></div>';
+            cats[cat].forEach(function(p){
+                var dc=p.diff==='Beginner'?'diff-easy':p.diff==='Intermediate'?'diff-medium':'diff-hard';
+                catHtml+='<div class="dsa-problem"><span class="prob-name">'+p.name+'</span><span class="prob-diff '+dc+'">'+p.diff+'</span></div>';
+            });
+            catHtml+='</div>';
+        });
+        document.getElementById('dsaCategories').innerHTML=catHtml;
+    }
+    renderCourses();
+</script>
 </body>
 </html>
