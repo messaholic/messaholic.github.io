@@ -1685,21 +1685,13 @@
         {name:'Business Writing',cat:'Professional Communication',diff:'Intermediate'},
         {name:'Negotiation Skills',cat:'Professional Communication',diff:'Advanced'},
         {name:'Networking Strategies',cat:'Professional Communication',diff:'Intermediate'},
-        {name:'Elevator Pitch',cat:'Professional Communication',diff:'Beginner'},
-        // Toastmasters Pathway
-        {name:'Ice Breaker Speech',cat:'Toastmasters Pathway',diff:'Beginner'},
-        {name:'Competent Communicator',cat:'Toastmasters Pathway',diff:'Intermediate'},
-        {name:'Advanced Communicator',cat:'Toastmasters Pathway',diff:'Advanced'},
-        {name:'Competent Leader',cat:'Toastmasters Pathway',diff:'Intermediate'},
-        {name:'Advanced Leader',cat:'Toastmasters Pathway',diff:'Advanced'},
-        {name:'Distinguished Toastmaster',cat:'Toastmasters Pathway',diff:'Advanced'}
+        {name:'Elevator Pitch',cat:'Professional Communication',diff:'Beginner'}
     ];
 
     var CAT_ICONS={
         'Communication Fundamentals':'🎤','Art of Presentation':'🎯','Leadership Development':'👑',
         'Public Speaking':'🗣️','Body Language':'🎭','Storytelling & Narrative':'📖',
-        'Voice & Diction':'🎙️','Meeting Facilitation':'🤝','Professional Communication':'💼',
-        'Toastmasters Pathway':'🏆'
+        'Voice & Diction':'🎙️','Meeting Facilitation':'🤝','Professional Communication':'💼'
     };
 
     function getCourses(){ return DEFAULT_COURSES; }
@@ -1722,7 +1714,7 @@
         sumHtml+='<div class="dsa-stat"><div class="ds-num">'+Object.keys(cats).length+'</div><div class="ds-label">Categories</div></div>';
         document.getElementById('dsaSummary').innerHTML=sumHtml;
         var catHtml='';
-        var catOrder=['Communication Fundamentals','Art of Presentation','Leadership Development','Public Speaking','Body Language','Storytelling & Narrative','Voice & Diction','Meeting Facilitation','Professional Communication','Toastmasters Pathway'];
+        var catOrder=['Communication Fundamentals','Art of Presentation','Leadership Development','Public Speaking','Body Language','Storytelling & Narrative','Voice & Diction','Meeting Facilitation','Professional Communication'];
         catOrder.forEach(function(cat){
             if(!cats[cat])return;
             var icon=CAT_ICONS[cat]||'📝';
